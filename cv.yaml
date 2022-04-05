@@ -1,5 +1,8 @@
-first name: Lux
-last name: Miranda
+### Languages
+languages: [en, sv, "no"]
+### Header
+firstname: Lux
+lastname: Miranda
 pronouns-en: they/she
 pronouns-sv: hen/hon
 pronouns-no: hen/hun
@@ -15,6 +18,7 @@ links:
     txt: contact@luxmiranda.com
     url: mailto:contact@luxmiranda.com
 
+### Education
 education:
   -
     when: 2020-2022 (expected)
