@@ -1,0 +1,42 @@
+first name: Lux
+last name: Miranda
+pronouns-en: they/she
+pronouns-sv: hen/hon
+pronouns-no: hen/hun
+picture: lux.png
+links:
+  -
+    txt: luxmiranda.com
+    url: https://luxmiranda.com
+  -
+    txt: Google Scholar Progile
+    url: https://scholar.google.com/citations?hl=en&user=4Kvx61cAAAAJ
+  -
+    txt: contact@luxmiranda.com
+    url: mailto:contact@luxmiranda.com
+
+education:
+  -
+    when: 2020-2022 (expected)
+    degree: Master of Science in Industrial Engineering
+    details: 
+      - University of Central Florida (UCF), _Orlando, Florida, USA_
+      - "Thesis title: _Humans in algorithms, algorithms in humans:
+        Understanding cooperation and creating social AI with causal generative
+        models_"
+      - Final examination 7 April 2022
+  -
+    when: 2016-2020
+    degree: Bachelor of Science with University Honors, double-major in 
+            computational Mathematics and Computer Science, minor in
+            Anthropology, _Cum Laude_
+    details:
+      - Utah State University (USU), _Logan, Utah, USA_
+      - "Honors thesis: _Computationally revealing recurrent social formations
+        and their evolutionary trajectories"
+        
+supplemental courses:
+  -
+    when: January 2021
+    what: "**Agent-Based Modeling of Social-Ecological Systems**, _CoMSES Net
+          International Winter School_, Arizona State University"
