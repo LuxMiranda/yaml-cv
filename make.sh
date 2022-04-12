@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python toLatex.py
+python toLatex.py "$@"
 cd tex
 xelatex -interaction=batchmode main
 cd ../

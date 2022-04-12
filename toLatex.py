@@ -1,5 +1,7 @@
+import functools
 import yaml
 import re
+import sys
 
 CV_YAML      = 'cv.yaml'
 TEMPLATE_TEX = 'tex/template.tex'
@@ -7,9 +9,18 @@ MAIN_TEX     = 'tex/main.tex'
 
 RENDER = {
         'en' : True,
-        'sv' : True,
-        'no' : True
+        'sv' : False,
+        'no' : False
 }
+
+def parseLanguageArgs():
+    global RENDER
+    for arg in sys.argv:
+        if arg not in RENDER.keys() and arg != 'toLatex.py':
+            print('Invalid language code')
+            exit(1)
+        elif arg != 'toLatex.py':
+            RENDER[arg] = True
 
 def load():
     with open(CV_YAML, 'r') as f:
@@ -22,13 +33,17 @@ def sub(var, tex, cv):
     templateVar = '\${}'.format(var.upper())
     return re.sub(templateVar, cv[var], tex)
 
-def langSub(var, tex, cv):
-    for lang in cv['languages']:
-        lvar = '\${}-{}'.format(var.upper(), lang.upper())
-        lsub = '({})'.format(cv['{}-{}'.format(var,lang)]) if RENDER[lang] else ''
-        tex = re.sub(lvar, lsub, tex)
-    return tex
+def sub_lang(tex, var=None, cv=None, lang=None):
+    lvar = '\${}-{}'.format(var.upper(), lang.upper())
+    lsub = '({})'.format(cv['{}-{}'.format(var,lang)]) if RENDER[lang] else ''
+    return re.sub(lvar, lsub, tex)
 
+def sub_multilang(var, tex, cv):
+    funcList = [
+                functools.partial(sub_lang, var=var, cv=cv, lang=l)
+                for l in cv['languages']
+            ]
+    return functools.reduce(lambda t, f: f(t), funcList, tex)
 
 def write(tex):
     texFile = open(MAIN_TEX,'w')
@@ -36,10 +51,11 @@ def write(tex):
     texFile.close()
 
 def main():
+    parseLanguageArgs()
     cv, tex = load()
     tex = sub('firstname', tex, cv)
     tex = sub('lastname', tex, cv)
-    tex = langSub('pronouns', tex, cv)
+    tex = sub_multilang('pronouns', tex, cv)
     write(tex)
 
 
