@@ -50,14 +50,25 @@ def write(tex):
     texFile.write(tex)
     texFile.close()
 
-def main():
-    parseLanguageArgs()
-    cv, tex = load()
+def makeSections(tex, cv):
+    return tex
+
+def addLinks(tex, cv):
+    return tex
+
+def makeHeader(tex, cv):
     tex = sub('firstname', tex, cv)
     tex = sub('lastname', tex, cv)
     tex = sub_multilang('pronouns', tex, cv)
+    tex = addLinks(tex, cv)
+    return tex
+ 
+def main():
+    parseLanguageArgs()
+    cv, tex = load()
+    tex = makeHeader(tex, cv)
+    tex = makeSections(tex, cv)
     write(tex)
-
 
 if __name__ == '__main__':
     main()

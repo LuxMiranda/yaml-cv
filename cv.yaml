@@ -1,5 +1,9 @@
-### Languages
+### Definitions
 languages: [en, sv, "no"]
+sections: [Education, Publications, Presentations,
+           Research Experience, Teaching Experience, Industry Experience,
+           Scholarships,Awards, Skills]
+subsections: { Education : Supplemental Courses }
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -17,13 +21,12 @@ links:
   -
     txt: contact@luxmiranda.com
     url: mailto:contact@luxmiranda.com
-
-### Education
-education:
+### Sections
+Education:
   -
     when: 2020-2022 (expected)
-    degree: Master of Science in Industrial Engineering
-    details: 
+    what:
+      - "**Master of Science in Industrial Engineering**"
       - University of Central Florida (UCF), _Orlando, Florida, USA_
       - "Thesis title: _Humans in algorithms, algorithms in humans:
         Understanding cooperation and creating social AI with causal generative
@@ -31,16 +34,17 @@ education:
       - Final examination 7 April 2022
   -
     when: 2016-2020
-    degree: Bachelor of Science with University Honors, double-major in 
-            computational Mathematics and Computer Science, minor in
-            Anthropology, _Cum Laude_
-    details:
+    what: 
+      - Bachelor of Science with University Honors, double-major in 
+        computational Mathematics and Computer Science, minor in
+        Anthropology, _Cum Laude_
       - Utah State University (USU), _Logan, Utah, USA_
       - "Honors thesis: _Computationally revealing recurrent social formations
         and their evolutionary trajectories"
         
-supplemental courses:
+Supplemental Courses:
   -
     when: January 2021
     what: "**Agent-Based Modeling of Social-Ecological Systems**, _CoMSES Net
           International Winter School_, Arizona State University"
+
