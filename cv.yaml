@@ -1,9 +1,9 @@
 ### Definitions
 languages: [en, sv, "no"]
-sections: [Education, Publications, Presentations,
-           Research Experience, Teaching Experience, Industry Experience,
-           Scholarships,Awards, Skills]
-subsections: { Education : Supplemental Courses }
+sections: [Education, Publications] #, Presentations,
+#           Research Experience, Teaching Experience, Industry Experience,
+#           Scholarships,Awards, Skills]
+subsections: { Education : [Supplemental Courses] }
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -17,7 +17,7 @@ links:
     url: https://luxmiranda.com
   -
     txt: Google Scholar Progile
-    url: https://scholar.google.com/citations?hl=en&user=4Kvx61cAAAAJ
+    url: https://scholar.google.com/citations?hl=en\&user=4Kvx61cAAAAJ
   -
     txt: contact@luxmiranda.com
     url: mailto:contact@luxmiranda.com
@@ -35,16 +35,30 @@ Education:
   -
     when: 2016-2020
     what: 
-      - Bachelor of Science with University Honors, double-major in 
+      - "**Bachelor of Science with University Honors, double-major in 
         computational Mathematics and Computer Science, minor in
-        Anthropology, _Cum Laude_
+        Anthropology, _Cum Laude_**"
       - Utah State University (USU), _Logan, Utah, USA_
       - "Honors thesis: _Computationally revealing recurrent social formations
-        and their evolutionary trajectories"
+        and their evolutionary trajectories_"
         
 Supplemental Courses:
   -
-    when: January 2021
-    what: "**Agent-Based Modeling of Social-Ecological Systems**, _CoMSES Net
-          International Winter School_, Arizona State University"
+    when: "January 2021"
+    what: 
+      - "**Agent-Based Modeling of Social-Ecological Systems**, _CoMSES Net
+        International Winter School_, Arizona State University"
 
+Publications:
+  -
+    when: "2022 \n (Submitted)"
+    what: 
+      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2021). Kinship moderates energy use in human polities. Submitted to _Proceedings on the National Academy of Sciences (PNAS)_."
+  -
+    when: "2022 \n (In press)"
+    what:
+      - "**Miranda L.** & Garibay O.O. (2022). Approaching (Super)Human Intent Recognition in Stag Hunt with the Naïve Utility Calculus Generative Model. In press for a special issue of _Computational and Mathematical Organization Theory_."
+  -
+    when: "2022"
+    what:
+      - "Bird, D., **Miranda, L.**, Vander Linden, M. et al. (2022). p3k14c, a synthetic global database of archaeological radiocarbon dates. _Scientific Data_ 9, 27 (2022). \\url{https://doi.org/10.1038/s41597-022-01118-7}" 

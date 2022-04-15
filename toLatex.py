@@ -13,6 +13,8 @@ RENDER = {
         'no' : False
 }
 
+TEXBR = '\\\\\n'
+
 def parseLanguageArgs():
     global RENDER
     for arg in sys.argv:
@@ -50,10 +52,52 @@ def write(tex):
     texFile.write(tex)
     texFile.close()
 
+
+def mdToTex(md):
+    # Bold
+    tex = re.sub(r"\*\*([^\*]*)\*\*", r"\\textbf{\1}", md)
+    # Italics
+    tex = re.sub(r"\_([^\*]*)\_", r"\\textit{\1}", tex)
+    # Ampersands
+    tex = tex.replace("&","\&")
+    # Newlines
+    tex = tex.replace("\n",TEXBR)
+    return tex
+
+def texCmd(name, args):
+    return '\\' + name + ''.join(['{'+a+'}' for a in args])
+
+def section(name,sub):
+    return texCmd('subsection' if sub else 'section', [name])
+
+def cvitem(when, what):
+    return texCmd('cvitem', [when,what])
+
+def makeSectionTex(sec, cv, sub=False):
+    sectionTex = section(sec,sub) + '\n' + '\n'.join([
+        cvitem(mdToTex(item['when']), TEXBR.join([
+                mdToTex(line) for line in item['what']
+            ])) for item in cv[sec]
+    ])
+    subsecsTex = ''.join(
+            ''.join(
+                [makeSectionTex(ss,cv,sub=True) for ss in cv['subsections'][sec]]
+            )
+            if sec in cv['subsections'].keys() else ''
+            )
+    return sectionTex + subsecsTex
+
+
 def makeSections(tex, cv):
+    sectionsTex = '\n'.join([makeSectionTex(s, cv) for s in cv['sections']])
+    tex = tex.replace('$SECTIONS',sectionsTex)
     return tex
 
 def addLinks(tex, cv):
+    texLink = lambda url,txt:'\\href{'+url+'}{\\underline{'+txt+'}}\n\\\\\n'
+    linkTex = ''.join([texLink(l['url'],l['txt']) for l in cv['links']])
+    tex     = tex.replace('$LINKS', linkTex)
+    tex     = tex.replace('$PICTURE', cv['picture'])
     return tex
 
 def makeHeader(tex, cv):
