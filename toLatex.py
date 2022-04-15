@@ -1,6 +1,6 @@
 import functools
 import yaml
-import re
+import regex as re
 import sys
 
 CV_YAML      = 'cv.yaml'
@@ -62,6 +62,12 @@ def mdToTex(md):
     tex = tex.replace("&","\&")
     # Newlines
     tex = tex.replace("\n",TEXBR)
+    # Links
+    linkPattern = re.compile(r'\[([^][]+)\](\(((?:[^()]+|(?2))+)\))')
+    for match in linkPattern.finditer(tex):
+        text, _, url = match.groups()
+        tex = tex.replace(f'[{text}]({url})', texCmd('href', [url,text]))
+ 
     return tex
 
 def texCmd(name, args):

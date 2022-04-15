@@ -1,9 +1,10 @@
 ### Definitions
 languages: [en, sv, "no"]
-sections: [Education, Publications] #, Presentations,
+sections: [Education, Publications, Presentations, Research Experience]
 #           Research Experience, Teaching Experience, Industry Experience,
 #           Scholarships,Awards, Skills]
 subsections: { Education : [Supplemental Courses] }
+tex-pagebreaks: [Presentations]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -53,12 +54,83 @@ Publications:
   -
     when: "2022 \n (Submitted)"
     what: 
-      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2021). Kinship moderates energy use in human polities. Submitted to _Proceedings on the National Academy of Sciences (PNAS)_."
+      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2021). 
+        Kinship moderates energy use in human polities. Submitted to 
+        _Proceedings on the National Academy of Sciences (PNAS)_."
   -
     when: "2022 \n (In press)"
     what:
-      - "**Miranda L.** & Garibay O.O. (2022). Approaching (Super)Human Intent Recognition in Stag Hunt with the Naïve Utility Calculus Generative Model. In press for a special issue of _Computational and Mathematical Organization Theory_."
+      - "**Miranda L.** & Garibay O.O. (2022). Approaching (Super)Human Intent
+        Recognition in Stag Hunt with the Naïve Utility Calculus Generative
+        Model. In press for a special issue of _Computational and Mathematical
+        Organization Theory_."
   -
     when: "2022"
     what:
-      - "Bird, D., **Miranda, L.**, Vander Linden, M. et al. (2022). p3k14c, a synthetic global database of archaeological radiocarbon dates. _Scientific Data_ 9, 27 (2022). \\url{https://doi.org/10.1038/s41597-022-01118-7}" 
+      - "Bird, D., **Miranda, L.**, Vander Linden, M. et al. (2022). p3k14c, a
+        synthetic global database of archaeological radiocarbon dates.
+        _Scientific Data_. [https://doi.org/10.1038/s41597-022-01118-7
+        ](https://doi.org/10.1038/s41597-022-01118-7)" 
+  -
+    when: "2021 \n Awarded _Best Human-Autonomy Teaming Paper_"
+    what:
+      - "**Miranda L.** & Garibay O.O. (2021). Multi-agent Naïve Utility
+        Calculus: Intent Recognition in the Stag-Hunt Game. Social, Cultural,
+        and Behavioral Modeling. SBP-BRiMS 2021. Lecture Notes in Computer
+        Science, vol 12720. [https://doi.org/10.1007/978-3-030-80387-2-32
+        ](https://doi.org/10.1007/978-3-030-80387-2_32)"
+  -
+    when: "2020"
+    what:
+      - "**Miranda, L.** & Freeman, J. (2020). The two types of society: 
+        Computationally revealing recurrent social formations and their 
+        evolutionary trajectories. _PLoS One_ 
+        [https://doi.org/10.1371/journal.pone.0232609
+        ](https://doi.org/10.1371/journal.pone.0232609)"
+
+Presentations:
+  -
+    when: "10 June 2021"
+    what:
+      - "Evolutionary model discovery of behavioral factors driving
+        decision-making in an irrigation experiment. _Inverse Generative Social
+        Science (iGSS) Workshop 2021_. 
+        [https://youtu.be/Z7zmaHVSHdc](https://youtu.be/Z7zmaHVSHdc)"
+
+
+Research Experience:
+  -
+    when: "August 2020 - \n May 2022 \n (4 semesters)"
+    what:
+      - "**Graduate Research Assistant.** _University of Central Florida 
+        Human-Centered Artificial Intelligence Research Laboratory & Complex
+        Adaptive Systems Laboratory._ I have served the full duties of a
+        Graduate Research Assistant every semester of my program."
+  -
+    when: "August 2019 - August 2020 \n (1 year)"
+    what:
+      - "**Undergraduate Research Assistant.** _Utah State University
+        Anthropology Program._ As part of an international archaeological
+        working group known as PEOPLE 3000, I helped to create and manage a new
+        radiocarbon database larger and more complete than any other. I also
+        worked to program and test an online social experiment studying
+        cooperation in a common-pool resource management scenario."
+  -
+    when: "Summer 2019"
+    what:
+      - "**Peak Summer Research Fellow.** _Utah State University._ One of ten
+        recipients awarded a 4,000 USD fellowship for highly-engaged
+        undergraduate researchers to conduct work on a proposed project over 
+        the summer. The research conducted under this fellowship produced my 
+        first publication, listed above."
+  -
+    when: "Summer 2018"
+    what:
+      - "Awarded a 1,600 USD fellowship to continue work on a CubeSat mission 
+        as the software team leader for the USU Get Away Special Microgravity 
+        Research team. Managed a team of ten other programmers. Wrote software 
+        for a prototype platform that successfully served over a dozen 
+        high-altitude balloon flights. The project (GASPACS) was successfully 
+        launched to the International Space Station as part of the SpaceX
+        CRS-24 mission and deployed into low Earth orbit on 26 January 2022."
+
