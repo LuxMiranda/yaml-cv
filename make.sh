@@ -1,7 +1,7 @@
 #!/bin/bash
 
 python toLatex.py "$@"
-cd tex
+cd tex/moderncv/
 xelatex -interaction=batchmode main
-cd ../
-cp tex/main.pdf CV.pdf
+cd ../../
+cp tex/moderncv/main.pdf CV.pdf

@@ -5,7 +5,7 @@ import sys
 
 CV_YAML      = 'cv.yaml'
 TEMPLATE_TEX = 'tex/template.tex'
-MAIN_TEX     = 'tex/main.tex'
+MAIN_TEX     = 'tex/moderncv/main.tex'
 
 RENDER = {
         'en' : True,
