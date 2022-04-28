@@ -1,16 +1,16 @@
 ### Definitions
 languages: [en, sv, "no"]
-sections: [Education, Publications, Presentations, Research Experience]
-#           Research Experience, Teaching Experience, Industry Experience,
-#           Scholarships,Awards, Skills]
+sections: [Education, Publications, Presentations,
+           Research Experience, Teaching Experience, Industry Experience,
+           Scholarships, Awards, Skills]
 subsections: { Education : [Supplemental Courses] }
 tex-pagebreaks: [Presentations]
 ### Header
 firstname: Lux
 lastname: Miranda
 pronouns-en: they/she
-pronouns-sv: hen/hon
-pronouns-no: hen/hun
+pronouns-sv: (hen/hon)
+pronouns-no: (hen/hun)
 picture: lux.png
 links:
   -
@@ -25,14 +25,13 @@ links:
 ### Sections
 Education:
   -
-    when: 2020-2022 (expected)
+    when: 2020-2022
     what:
       - "**Master of Science in Industrial Engineering**"
       - University of Central Florida (UCF), _Orlando, Florida, USA_
       - "Thesis title: _Humans in algorithms, algorithms in humans:
         Understanding cooperation and creating social AI with causal generative
         models_"
-      - Final examination 7 April 2022
   -
     when: 2016-2020
     what: 
@@ -54,27 +53,27 @@ Publications:
   -
     when: "2022 \n (Submitted)"
     what: 
-      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2021). 
+      - "Freeman, J., Baggio, J., **Lux**, & Anderies, J.M. (2021). 
         Kinship moderates energy use in human polities. Submitted to 
         _Proceedings on the National Academy of Sciences (PNAS)_."
   -
     when: "2022 \n (In press)"
     what:
-      - "**Miranda L.** & Garibay O.O. (2022). Approaching (Super)Human Intent
+      - "**Lux** & Garibay O.O. (2022). Approaching (Super)Human Intent
         Recognition in Stag Hunt with the Naïve Utility Calculus Generative
         Model. In press for a special issue of _Computational and Mathematical
         Organization Theory_."
   -
     when: "2022"
     what:
-      - "Bird, D., **Miranda, L.**, Vander Linden, M. et al. (2022). p3k14c, a
+      - "Bird, D., **Lux**, Vander Linden, M. et al. (2022). p3k14c, a
         synthetic global database of archaeological radiocarbon dates.
         _Scientific Data_. [https://doi.org/10.1038/s41597-022-01118-7
         ](https://doi.org/10.1038/s41597-022-01118-7)" 
   -
     when: "2021 \n Awarded _Best Human-Autonomy Teaming Paper_"
     what:
-      - "**Miranda L.** & Garibay O.O. (2021). Multi-agent Naïve Utility
+      - "**Lux** & Garibay O.O. (2021). Multi-agent Naïve Utility
         Calculus: Intent Recognition in the Stag-Hunt Game. Social, Cultural,
         and Behavioral Modeling. SBP-BRiMS 2021. Lecture Notes in Computer
         Science, vol 12720. [https://doi.org/10.1007/978-3-030-80387-2-32
@@ -82,7 +81,7 @@ Publications:
   -
     when: "2020"
     what:
-      - "**Miranda, L.** & Freeman, J. (2020). The two types of society: 
+      - "**Lux** & Freeman, J. (2020). The two types of society: 
         Computationally revealing recurrent social formations and their 
         evolutionary trajectories. _PLoS One_ 
         [https://doi.org/10.1371/journal.pone.0232609
@@ -104,8 +103,9 @@ Research Experience:
     what:
       - "**Graduate Research Assistant.** _University of Central Florida 
         Human-Centered Artificial Intelligence Research Laboratory & Complex
-        Adaptive Systems Laboratory._ I have served the full duties of a
-        Graduate Research Assistant every semester of my program."
+        Adaptive Systems Laboratory._ Contributed to the publication
+        of three journal articles, one conference paper, and my master's
+        thesis."
   -
     when: "August 2019 - August 2020 \n (1 year)"
     what:
@@ -126,11 +126,110 @@ Research Experience:
   -
     when: "Summer 2018"
     what:
-      - "Awarded a 1,600 USD fellowship to continue work on a CubeSat mission 
+      - "**NASA Space Grant Consortium Fellow.** 
+        Awarded a 1,600 USD fellowship to continue work on a CubeSat mission 
         as the software team leader for the USU Get Away Special Microgravity 
         Research team. Managed a team of ten other programmers. Wrote software 
         for a prototype platform that successfully served over a dozen 
         high-altitude balloon flights. The project (GASPACS) was successfully 
         launched to the International Space Station as part of the SpaceX
         CRS-24 mission and deployed into low Earth orbit on 26 January 2022."
+
+Teaching Experience:
+  -
+    when: "August 2020 - \n May 2022 \n (4 semesters)"
+    what: 
+      - "**Graduate Teaching Assistant.** _University of Central Florida
+        Complex Adaptive Systems Laboratory._ Assisted in teaching, grading,
+        and holding office hours for master's-level courses in data mining, 
+        cloud computing, and statistical analysis."
+  -
+    when: "January 2018 - \n May 2019 \n (3 semesters)"
+    what:
+      - "**Assistant Lecturer / Recitation Instructor.** _Utah State University
+        Department of Mathematics and Statistics_. Created and gave original
+        lectures for the Differential Equations and Linear Algebra course at
+        USU. Held office hours, created numerous course materials, designed
+        exam questions, and used Python to create an automated tool for 
+        online assessment creation which continued to be used by the department
+        after my departure."
+  -
+    when: "August 2016 - \n May 2017 \n (2 semesters)"
+    what:
+      - "**Computer Science Tutor.** _Utah State University Department of 
+        Computer Science._ Tutored students in introductory computer science
+        courses. Primarily assisted with homework concepts and code debugging."
+
+Industry Experience:
+  -
+    when: "May 2017 - \n October 2017 \n (6 months)"
+    what:
+      - "**Embedded Engineering Assistant.** _Space Dynamics Laboratory_,
+        Logan, Utah. USA. Developed software for embedded systems in C++. Built
+        a technology demo showcasing a multi-agent platform which toured the
+        USA to help garner  funding. Developed, documented, and standardized
+        methods for in-house Linux distribution management that continued to
+        be used after my departure."
+
+Scholarships:
+  -
+    when: "November 2021 - \n August 2022 \n (8 months)"
+    what:
+      - "**PAGES Data Stewardship Scholarship.** Received a 4,400 USD
+        scholarship from PAGES (Past Global Changes) to continue stewardship
+        work on the p3k14c archaeological radiocarbon database as part of the
+        PEOPLE 3,000 working group."
+  -
+    when: "Summer 2018"
+    what:
+      - "**Honors Study Abroad Scholarship.** Received a 1,000 USD scholarship
+        from the USU Honors Program used towards a semester studying historical
+        European art and theatre in Italy, Switzerland, France, and the UK."
+  -
+    when: "2016-2020 \n (4 years)"
+    what:
+      - "**Daniels Scholarship.** Received the full-ride Daniels Scholarship
+        (final award amount: 58,100 USD) to attend any four-year Bachelor's
+        program in the USA for demonstrating exceptional leadership ability,
+        strength of character, and commitment to community betterment. To
+        maintain the scholarship, I was required to strictly keep the 
+        Daniels Scholar Code of Conduct which entailed working a paid position
+        for at least ten hours per week during the semester, following all
+        local laws, being involved in community betterment, and maintaining 
+        good academic standing."
+
+Awards:
+  -
+    when: "April 2022"
+    what: 
+      - "**Best 2021 Paper** within the Human-Centered Artificial
+        Intelligence Research Laboratory. Awarded by the lab director for our
+        publication in
+        [SBP-BRiMS 2021](https://doi.org/10.1007/978-3-030-80387-2-32)."
+  -
+    when: "July 2021"
+    what:
+      - "**Best Human-Autonomy Teaming Paper**. Awarded by the 
+        _Social, Cultural, and Behavioral Modeling (SBP-BRiMS) 2021_ conference
+        for our [submission](https://doi.org/10.1007/978-3-030-80387-2-32)."
+
+Skills:
+  -
+    when: "Programming"
+    what:
+      - "Python (plus pandas, numpy, matplotlib, etc.), NetLogo,
+        JavaScript, Haskell, C++"
+  -
+    when: "Tools"
+    what: 
+      - "Linux, Git, Vim, LaTeX, spreadsheet macros, Canvas"
+  -
+    when: "Languages"
+    what:
+      - "English (native; CEFR level C2), Swedish (conversational; CEFR level
+        B1)"
+  -
+    when: "Cooking"
+    what:
+      - "Mesoamerican, vegan pastries, hot beverages"
 

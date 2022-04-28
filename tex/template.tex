@@ -1,28 +1,18 @@
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
-
-\newif\ifsvenska
-\newif\ifnorsk
-
-\svenskafalse
-\norskfalse
-
+\documentclass[11pt,a4paper,sans]{moderncv} 
 \usepackage[document]{ragged2e}
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{classic}
+\moderncvcolor{green} 
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{lipsum} 
 
-\usepackage[scale=0.83,top=1.5cm,bottom=1.5cm]{geometry} % Reduce document margins
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[scale=0.83,top=1.5cm,bottom=1.5cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % Changes the width of the dates column
 
 \renewcommand{\baselinestretch}{1.2}
 
 \usepackage{sectsty}
-
 \usepackage{fontspec}
-
 
 \setsansfont[
 BoldFont=Balto-Medium.ttf,
@@ -30,30 +20,18 @@ ItalicFont=Balto-BookItalic.ttf,
 BoldItalicFont=Balto-MediumItalic.ttf
 ]{Balto-Book.ttf}
 
-
 \allsectionsfont{\normalsize}
 
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\firstname{{\setsansfont{Forum-Regular.ttf} $FIRSTNAME}} % Your first name
-\familyname{{\setsansfont{Forum-Regular.ttf} $LASTNAME}} % Your first name
-
+\firstname{{\setsansfont{Forum-Regular.ttf} $FIRSTNAME}}
+\familyname{{\setsansfont{Forum-Regular.ttf} $LASTNAME}} 
 \pronouns{
   $PRONOUNS-EN $PRONOUNS-SV $PRONOUNS-NO
 }
 
-% All information in this block is optional, comment out any lines you don't need
 \title{Lux Miranda Curriculum Vitae}
-%\address{Address}{City, State Zip}
 \extrainfo{
 $LINKS CV current as of \today}
-%\homepage{https://sites.google.com/view/sikka-anmol/home}{Homepage}
-\photo[80pt][0.6pt]{$PICTURE} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-%\quote{"A witty and playful quotation" - John Smith}
-%----------------------------------------------------------------------------------------
+\photo[80pt][0.6pt]{$PICTURE}
 
 \begin{document}
 
@@ -61,164 +39,5 @@ $LINKS CV current as of \today}
 
 $SECTIONS
 
-\section{Presentations}
-
-\cvitem{10 June 2021}{Evolutionary model discovery of behavioral factors driving decision-making in an irrigation experiment. \textit{Inverse Generative Social Science (iGSS) Workshop 2021.} \url{https://youtu.be/Z7zmaHVSHdc}}
-
-\section{Research Experience}
-
-\cvitem{August 2020 - \\ May 2022 \\ (4 semesters) }{\textbf{Graduate Research Assistant.} \textit{University of Central Florida Human-Centered Artificial Intelligence Research Laboratory \& Complex Adaptive Systems Laboratory.} I have served the full duties of a Graduate Research Assistant every semester of my program.}% (including fulfilling all the same research expectations that must be met by my colleagues pursuing doctorate-level research degrees).}
-
-\cvitem{August 2019 - August 2020 \\ (1 year)}{\textbf{Undergraduate Research Assistant.} \textit{Utah State University Anthropology Program.} As part of an international archaeological working group known as PEOPLE 3000, I helped to create and manage a new radiocarbon database larger and more complete than any other. I also worked to program and test an online social experiment studying cooperation in a common-pool resource management scenario.}
-
-\cvitem{Summer 2019}{\textbf{Peak Summer Research Fellow.} \textit{Utah State University.} One of ten recipients awarded a \$4,000 USD 
-\ifsvenska
-    (35,000 SEK) 
-\fi
-\ifnorsk
-    (35,000 NOK) 
-\fi
-fellowship for highly-engaged undergraduate researchers to conduct work on a proposed project over the summer. The research conducted under this fellowship produced my first publication, listed above.}
-
-\cvitem{Summer 2018}{\textbf{NASA Space Grant Consortium Fellow.} Awarded a \$1,600 USD 
-\ifsvenska
-    (14,000 SEK) 
-\fi
-\ifnorsk
-    (14,000 NOK) 
-\fi
-fellowship to continue work on a CubeSat mission as the software team leader for the USU Get Away Special Microgravity Research team. Managed a team of ten other programmers. Wrote software for a prototype platform that successfully served over a dozen high-altitude balloon flights. The project (GASPACS) was successfully launched to the International Space Station as part of the SpaceX CRS-24 mission and deployed into low Earth orbit on 26 January 2022.}
-
-\section{Teaching Experience}
-
-\cvitem{August 2020 - \\ May 2022 \\ (4 semesters)}{\textbf{Graduate Teaching Assistant.} \textit{University of Central Florida Data Analytics MS Program.} I have served as a GTA for the following courses:}
-\vspace{-20pt}
-\cvitem{}{
-\begin{tabular}{rll}
-    Spring 2022 &\ \ \  STA 5206 & \ \ \ Statistical Analysis \\
-    Fall 2021 &\ \ \  STA 5206 & \ \ \ Statistical Analysis \\
-    Spring 2021 &\ \ \  STA 5703 & \ \ \ Data Mining Methodology \\
-    Fall 2020 &\ \ \  COP 6526 & \ \ \ Parallel and Cloud Computing
-\end{tabular}
-}
-
-\cvitem{January 2018 - May 2019 \\ (3 semesters)}{\textbf{Assistant Lecturer / Recitation Instructor.} \textit{Utah State University Department of Mathematics and Statistics.} Worked as an assistant lecturer / recitation instructor for the Differential Equations and Linear Algebra course at USU. Gave original lectures twice-weekly alternating with thrice-weekly lectures by the primary lecturer. Held office hours, created numerous course materials, and designed exam questions. }
-
-\cvitem{August 2016 -  \\ May 2017 \\ (2 semesters)}{\textbf{Computer Science Tutor.} \textit{Utah State University Department of Computer Science.} Tutored students in introductory computer science courses. Primarily assisted with homework concepts and code debugging.}
-
-
-\section{Industry Experience}
-
-\cvitem{May 2017 - Oct 2017 \\ (6 months)}{\textbf{Embedded Engineering Assistant.} \textit{Space Dynamics Laboratory,} Logan, Utah, USA. 
-Developed software for embedded systems in C++. Built a technology demo showcasing a multi-agent platform which toured the USA to help garner funding. Developed, documented, and standardized methods for in-house Linux distribution management that continued to be used after my departure.}
-
-\section{Scholarships}
-
-\cvitem{November 2021 - August 2022}{\textbf{PAGES Data Stewardship Scholarship.} Received a \$4,400 USD
-\ifsvenska
-    (43,000 SEK)
-\fi
-\ifnorsk
-    (40,000 NOK)
-\fi
-\href{https://pastglobalchanges.org/science/wg/people-3000/data}{scholarship from PAGES (Past Global Changes)} to continue stewardship work on the p3k14c archaeological radiocarbon database as part of the PEOPLE 3,000 working group. 
-}
-
-\cvitem{Summer 2018}{\textbf{Honors Study Abroad Scholarship.} Received a \$1,000 USD 
-\ifsvenska
-    (8,800 SEK)
-\fi
-\ifnorsk
-    (8,800 NOK)
-\fi
-scholarship from the \href{https://www.usu.edu/honors/}{USU Honors Program} to use towards a semester studying historical European art and theatre in Italy, Switzerland, France, and the UK.}
-
-\cvitem{2016-2020}{\textbf{Daniels Scholarship.} Received the full-ride \href{https://www.danielsfund.org/}{Daniels Scholarship} (final award amount: \$58,136 USD
-\ifsvenska
-    / 511,596 SEK
-\fi
-\ifnorsk
-    / 511,714 NOK
-\fi
-) to attend any four-year Bachelor's program in the USA for demonstrating exceptional leadership ability, strength of character, and commitment to community betterment. I was required to keep the Daniels Scholar Code of Conduct and work a paid position for at least ten hours per week during every semester to maintain the scholarship.}
-
-\section{Awards}
-
-\cvitem{July 2021}{\textbf{Best Human-Autonomy Teaming Paper.} Social, Cultural, and Behavioral Modeling. \textit{SBP-BRiMS 2021}.}
-
-\cvitem{Spring 2018}{\textbf{Outstanding Undergraduate Oral Presentation} in the discipline of Life Sciences, presented on Aleut population modelling project listed below. USU Student Research Symposium.}
-
-\cvitem{Fall 2017}{\textbf{First-place Hackathon Prize.} Led a team of 3 other programmers over the span of just 36 hours to create \href{https://github.com/luxmiranda/will-ai-shakespeare}{Will A.I. Shakespeare}, a natural language program that procedurally generates Shakespearean sonnets. The project won first place at the largest Hackathon in Utah, \textit{HackUSU.}}
-
-\section{Undergraduate Research Projects \& Presentations}
-\cvitem{Fall 2018}{\textbf{``Optimized Development of a Mars Energy Infrastructure"} Developed a machine learning method that optimizes the shipment of renewable energy infrastructure to Mars in a manner that ensures the sustainment of a large human settlement. Cumulative project of \textit{CS 5810 Machine Intelligence in Clean Energy}. Presented in a departmental symposium. }
-
-\cvitem{2017-2018}{\textbf{``Mathematically Predicting Aleut Population using Archaeological Data"} Constructed a dynamical model of human-resource interaction to explain historical population changes among the Aleut of the southern Alaskan peninsula. Presented to Utah state legislators in Salt Lake City, Utah, as part of \textit{Research on Capitol Hill}. Available via USU Digital Commons. }
-
-\cvitem{Spring 2017}{\textbf{``OpenSPA: an Open-Source Software Solution for University SmallSat Teams"} Developed an open-source command-and-data-handling software for embedded satellite systems targeted towards the needs and ability of undergraduate space engineering teams. Presented project at the USU Student Research Symposium. Available via USU Digital Commons.}
-
-%----------------------------------------------------------------------------------------
-%	Achievements SECTION
-%----------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-%	Achievements SECTION
-%----------------------------------------------------------------------------------------
-
-
-
-\section{Undergraduate Extracurricular Organizations}
-
-\cvitem{Summer 2016 to Spring 2019 \\ (3 years) }{\textbf{USU Get Away Special Microgravity Research Team}. Worked on a long-running CubeSat mission as part of an all-undergraduate research team. Received NASA fellowship listed above. Managed a team of ten other programmers. Wrote software for a prototype platform that successfully served over a dozen high-altitude balloon flights. The project (GASPACS) was successfully launched to the International Space Station as part of the SpaceX CRS-24 mission and deployed into low Earth orbit on 26 January 2022.}
-
-\cvitem{Fall 2017 to\\ Spring 2019 \\ (4 semesters) }{\textbf{Society of Women Engineers (SWE), USU student chapter}. Served as the society Treasurer. Budgeted and managed a financial account with a balance that regularly exceeded \$20,000 USD
-\ifsvenska
-    (176,000 SEK)
-\fi
-\ifnorsk
-    (176,000 NOK)
-\fi
-. Successfully presented to donor organizations to secure additional grants. Money was used to fund K-12 STEM outreach to girls, professional development for club members, and promoting diversity in engineering. Volunteered numerous hours to outreach.}
-
-\cvitem{Fall 2016 to\\ Spring 2018 \\ (4 semesters)}{\textbf{American Institute of Aeronautics and Astronautics (AIAA), USU student chapter}. Served as society President during the 2017-2018 academic year and as Vice-President during the 2016-2017 academic year. Coordinated all club activities, including K-12 STEM outreach, professional development events, fundraising efforts, and social activities.} 
-
-\cvitem{Spring 2018}{\textbf{USU Competitive Rocketry Team.} Rocket targeted the 3,000m altitude mark. Prevented a test-flight after discovering a fatal design flaw in the air brake system. Modeled and optimized the brake system; parts were re-machined based on my specifications. Built/programmed the flight computer, and successfully provided remote troubleshooting to fix an issue with the computer at a critical time during the Spaceport America Cup competition.} 
-
-
-\section{Skills}
-%
-\cvitem{Programming}{Python (plus pandas, numpy, scipy, matplotlib), NetLogo, JavaScript, Haskell, C++}
-\cvitem{Software}{Linux, Git, Vim, \LaTeX, Excel}
-\cvitem{Languages}{English (native; CEFR level C2), Swedish (intermediate; CEFR level B1)
-\ifnorsk
-, Norwegian (waystage, CEFR level A2)
-\fi
-}
-\cvitem{Cooking}{Mesoamerican, Vegan Pastries, Hot Beverages}
-
-%-----------------------------------------:w-----------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
-
-% To remove the cover letter, comment out this entire block
-
-\clearpage
-
-%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-%\date{\today} % Letter date
-%\opening{Dear Person,} % Opening greeting
-%\closing{Sincerely yours,} % Closing phrase
-%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
-%
-%\makelettertitle % Print letter title
-%
-%\lipsum[1-3] % Dummy text
-%
-%\makeletterclosing % Print letter signature
-
-%----------------------------------------------------------------------------------------
-
 \end{document}
-
-
 

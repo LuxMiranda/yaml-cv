@@ -37,7 +37,7 @@ def sub(var, tex, cv):
 
 def sub_lang(tex, var=None, cv=None, lang=None):
     lvar = '\${}-{}'.format(var.upper(), lang.upper())
-    lsub = '({})'.format(cv['{}-{}'.format(var,lang)]) if RENDER[lang] else ''
+    lsub = cv['{}-{}'.format(var,lang)] if RENDER[lang] else ''
     return re.sub(lvar, lsub, tex)
 
 def sub_multilang(var, tex, cv):
@@ -73,6 +73,9 @@ def mdToTex(md):
 def texCmd(name, args):
     return '\\' + name + ''.join(['{'+a+'}' for a in args])
 
+def pagebreak(section, cv):
+    return '\\newpage \n' if section in cv['tex-pagebreaks'] else ''
+
 def section(name,sub):
     return texCmd('subsection' if sub else 'section', [name])
 
@@ -80,7 +83,7 @@ def cvitem(when, what):
     return texCmd('cvitem', [when,what])
 
 def makeSectionTex(sec, cv, sub=False):
-    sectionTex = section(sec,sub) + '\n' + '\n'.join([
+    sectionTex = pagebreak(sec,cv) + section(sec,sub) + '\n' + '\n'.join([
         cvitem(mdToTex(item['when']), TEXBR.join([
                 mdToTex(line) for line in item['what']
             ])) for item in cv[sec]
