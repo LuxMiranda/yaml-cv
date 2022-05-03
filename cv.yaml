@@ -4,7 +4,7 @@ sections: [Education, Publications, Presentations,
            Research Experience, Teaching Experience, Industry Experience,
            Scholarships, Awards, Skills]
 subsections: { Education : [Supplemental Courses] }
-tex-pagebreaks: [Presentations]
+tex-pagebreaks: [Skills]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -57,13 +57,21 @@ Supplemental Courses:
 
 Publications:
   -
+    when: "2022 \n (Invited; Submitted)"
+    what: 
+      - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2022). 
+        Evolutionary model discovery of human behavioral factors driving
+        decision-making in an irrigation experiment. Invited and submitted to
+        a special edition of the _Journal of Artificial Societies and Social
+        Simulation (JASSS)_."
+  -
     when: "2022 \n (Submitted)"
     what: 
-      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2021). 
+      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2022). 
         Kinship moderates energy use in human polities. Submitted to 
         _Proceedings on the National Academy of Sciences (PNAS)_."
   -
-    when: "2022 \n (In press)"
+    when: "2022 \n (Invited; In review)"
     what:
       - "**Miranda, L.** & Garibay O.O. (2022). Approaching (Super)Human Intent
         Recognition in Stag Hunt with the Naïve Utility Calculus Generative

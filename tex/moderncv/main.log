@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.4.4)  3 MAY 2022 12:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.4.4)  3 MAY 2022 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,74 +1005,80 @@ Overfull \hbox (4.6803pt too wide) in paragraph at lines 58--58
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 68--68
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 69--69
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 70--70
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 71--71
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 78--78
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 79--79
  []|[]|[][]|
  []
 
 
-Overfull \hbox (0.84pt too wide) has occurred while \output is active
-[]|\TU/Balto-Book.ttf(0)/m/it/10 2/[]3[]  
+Overfull \hbox (0.56999pt too wide) has occurred while \output is active
+[]|\TU/Balto-Book.ttf(0)/m/it/10 2/[]4[]  
  []
 
 [2]
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 88--88
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 89--89
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 92--92
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 93--93
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 99--99
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 100--100
  []|[]|[][]|
  []
 
+
+Overfull \hbox (0.60999pt too wide) has occurred while \output is active
+[]|\TU/Balto-Book.ttf(0)/m/it/10 3/[]4[]  
+ []
+
+[3]
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 102--102
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 104--104
  []|[]|[][]|
  []
 
 
-Overfull \hbox (0.87999pt too wide) has occurred while \output is active
-[]|\TU/Balto-Book.ttf(0)/m/it/10 3/[]3[]  
+Overfull \hbox (0.90999pt too wide) has occurred while \output is active
+[]|\TU/Balto-Book.ttf(0)/m/it/10 4/[]4[]  
  []
 
-[3] (./main.aux)
+[4] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C91C650C72097EEEB3E58FC9EFFFB7BE;972.
  ) 
 Here is how much of TeX's memory you used:
  26340 strings out of 479212
  517235 string characters out of 5875087
- 982487 words of memory out of 5000000
+ 983616 words of memory out of 5000000
  45416 multiletter control sequences out of 15000+600000
  406817 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  132i,14n,130p,627b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (4 pages).
