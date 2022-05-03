@@ -25,6 +25,12 @@ links:
 ### Sections
 Education:
   -
+    when: "2022-2027 \n (expected)"
+    what:
+      - "**PhD in Computer Science**"
+      - Uppsala University, _Uppsala, Sweden_
+      - Graduation expected May 2027 
+  -
     when: 2020-2022
     what:
       - "**Master of Science in Industrial Engineering**"
@@ -36,7 +42,7 @@ Education:
     when: 2016-2020
     what: 
       - "**Bachelor of Science with University Honors, double-major in 
-        computational Mathematics and Computer Science, minor in
+        Computational Mathematics and Computer Science, minor in
         Anthropology, _Cum Laude_**"
       - Utah State University (USU), _Logan, Utah, USA_
       - "Honors thesis: _Computationally revealing recurrent social formations
@@ -53,27 +59,27 @@ Publications:
   -
     when: "2022 \n (Submitted)"
     what: 
-      - "Freeman, J., Baggio, J., **Lux**, & Anderies, J.M. (2021). 
+      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2021). 
         Kinship moderates energy use in human polities. Submitted to 
         _Proceedings on the National Academy of Sciences (PNAS)_."
   -
     when: "2022 \n (In press)"
     what:
-      - "**Lux** & Garibay O.O. (2022). Approaching (Super)Human Intent
+      - "**Miranda, L.** & Garibay O.O. (2022). Approaching (Super)Human Intent
         Recognition in Stag Hunt with the Naïve Utility Calculus Generative
         Model. In press for a special issue of _Computational and Mathematical
         Organization Theory_."
   -
     when: "2022"
     what:
-      - "Bird, D., **Lux**, Vander Linden, M. et al. (2022). p3k14c, a
+      - "Bird, D., **Miranda, L.**, Vander Linden, M. et al. (2022). p3k14c, a
         synthetic global database of archaeological radiocarbon dates.
         _Scientific Data_. [https://doi.org/10.1038/s41597-022-01118-7
         ](https://doi.org/10.1038/s41597-022-01118-7)" 
   -
     when: "2021 \n Awarded _Best Human-Autonomy Teaming Paper_"
     what:
-      - "**Lux** & Garibay O.O. (2021). Multi-agent Naïve Utility
+      - "**Miranda, L.** & Garibay O.O. (2021). Multi-agent Naïve Utility
         Calculus: Intent Recognition in the Stag-Hunt Game. Social, Cultural,
         and Behavioral Modeling. SBP-BRiMS 2021. Lecture Notes in Computer
         Science, vol 12720. [https://doi.org/10.1007/978-3-030-80387-2-32
@@ -81,7 +87,7 @@ Publications:
   -
     when: "2020"
     what:
-      - "**Lux** & Freeman, J. (2020). The two types of society: 
+      - "**Miranda, L.** & Freeman, J. (2020). The two types of society: 
         Computationally revealing recurrent social formations and their 
         evolutionary trajectories. _PLoS One_ 
         [https://doi.org/10.1371/journal.pone.0232609
