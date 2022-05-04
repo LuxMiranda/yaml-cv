@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.4.4)  3 MAY 2022 13:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.4.4)  4 MAY 2022 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,13 +1016,6 @@ Overfull \hbox (4.6803pt too wide) in paragraph at lines 71--71
  []|[]|[][]|
  []
 
-File: gradient.png Graphic file (type bmp)
-<gradient.png>
-
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 79--79
- []|[]|[][]|
- []
-
 
 Overfull \hbox (0.56999pt too wide) has occurred while \output is active
 []|\TU/Balto-Book.ttf(0)/m/it/10 2/[]4[]  
@@ -1032,21 +1025,28 @@ Overfull \hbox (0.56999pt too wide) has occurred while \output is active
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 89--89
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 81--81
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 91--91
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 100--100
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 95--95
+ []|[]|[][]|
+ []
+
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 102--102
  []|[]|[][]|
  []
 
@@ -1059,7 +1059,7 @@ Overfull \hbox (0.60999pt too wide) has occurred while \output is active
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.6803pt too wide) in paragraph at lines 104--104
+Overfull \hbox (4.6803pt too wide) in paragraph at lines 105--105
  []|[]|[][]|
  []
 
@@ -1075,7 +1075,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  26340 strings out of 479212
  517235 string characters out of 5875087
- 983616 words of memory out of 5000000
+ 984616 words of memory out of 5000000
  45416 multiletter control sequences out of 15000+600000
  406817 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
