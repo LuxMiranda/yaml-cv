@@ -4,7 +4,7 @@ sections: [Education, Publications, Presentations,
            Research Experience, Teaching Experience, Industry Experience,
            Scholarships, Awards, Skills]
 subsections: { Education : [Supplemental Courses] }
-tex-pagebreaks: [Teaching Experience] 
+tex-pagebreaks: []
 ### Header
 firstname: Lux
 lastname: Miranda
