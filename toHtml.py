@@ -34,13 +34,11 @@ def cvitem(when, what):
     """
 
 def link(url, text):
-    return f'<a href="{url}">{text}</a>'
+    return f'<a href="{url}"><strong>{text}</strong></a>'
 
 def mdToTex(md):
     # Bold
     tex = re.sub(r"\*\*([^\*]*)\*\*", r"<strong>\1</strong>", md)
-    # Italics
-    tex = re.sub(r"\_([^\*]*)\_", r"<i>\1</i>", tex)
     # Ampersands
     #tex = tex.replace("&","\&")
     # Newlines
@@ -49,8 +47,11 @@ def mdToTex(md):
     linkPattern = re.compile(r'\[([^][]+)\](\(((?:[^()]+|(?2))+)\))')
     for match in linkPattern.finditer(tex):
         text, _, url = match.groups()
-        tex = tex.replace(f'[{text}]({url})', link(url,text))
- 
+        newUrl = str(url).replace('_','\\%5F')
+        tex = tex.replace(f'[{text}]({url})', link(newUrl,text))
+
+    # Italics
+    tex = re.sub(r"\_([^\*]*)\_", r"<i>\1</i>", tex)
     return tex
 
 

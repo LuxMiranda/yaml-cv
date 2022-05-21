@@ -28,14 +28,19 @@ Education:
     when: "2022-2027 \n (expected)"
     what:
       - "**PhD in Computer Science**"
-      - Uppsala University, _Uppsala, Sweden_
+      - "[Uppsala University](https://en.wikipedia.org/wiki/Uppsala_University),
+        _Sweden, European Union_"
       - Graduation expected May 2027 
   -
     when: 2020-2022
     what:
       - "**Master of Science in Industrial Engineering**"
-      - University of Central Florida (UCF), _Orlando, Florida, USA_
-      - "Thesis title: _Humans in algorithms, algorithms in humans:
+      - "[University of Central Florida
+        ](https://en.wikipedia.org/wiki/University_of_Central_Florida)
+        (UCF), _Orlando, Florida, USA_"
+      - "Honorary [10,000th master's degree](https://web.archive.org/web/20220513211358/https://www.cecs.ucf.edu/college-awards-2000th-doctoral-and-10000th-masters-degrees-to-honorary-recipients/) conferred by the college"
+      - "[Thesis](https://stars.library.ucf.edu/etd2020/1054):
+        _Humans in algorithms, algorithms in humans:
         Understanding cooperation and creating social AI with causal generative
         models_"
   -
@@ -44,16 +49,20 @@ Education:
       - "**Bachelor of Science with University Honors, double-major in 
         Computational Mathematics and Computer Science, minor in
         Anthropology, _Cum Laude_**"
-      - Utah State University (USU), _Logan, Utah, USA_
-      - "Honors thesis: _Computationally revealing recurrent social formations
+      - "[Utah State University
+        ](https://en.wikipedia.org/wiki/Utah_State_University) (USU)
+        , _Logan, Utah, USA_"
+      - "[Honors thesis](https://doi.org/10.1371/journal.pone.0232609):
+        _Computationally revealing recurrent social formations
         and their evolutionary trajectories_"
         
 Supplemental Courses:
   -
     when: "January 2021"
     what: 
-      - "**Agent-Based Modeling of Social-Ecological Systems**, _CoMSES Net
-        International Winter School_, Arizona State University"
+      - "**Agent-Based Modeling of Social-Ecological Systems**, 
+        [CoMSES Net International Winter School](https://web.archive.org/web/20210118141023/https://complexity.asu.edu/cbie/winterschool),
+        Arizona State University"
 
 Publications:
   -
@@ -80,9 +89,17 @@ Publications:
   -
     when: "2022"
     what:
+      - "**Miranda, L.** (2022). Humans in Algorithms, Algorithms in Humans:
+        Understanding Cooperation and Creating Social AI with Causal Generative
+        Models. _UCF Electronic Theses and Dissertations_. 
+        [https://stars.library.ucf.edu/etd2020/1054
+        ](https://stars.library.ucf.edu/etd2020/1054)"
+  -
+    when: "2022"
+    what:
       - "Bird, D., **Miranda, L.**, Vander Linden, M. et al. (2022). p3k14c, a
         synthetic global database of archaeological radiocarbon dates.
-        _Scientific Data_. [https://doi.org/10.1038/s41597-022-01118-7
+        _Scientific Data_. [10.1038/s41597-022-01118-7
         ](https://doi.org/10.1038/s41597-022-01118-7)" 
   -
     when: "2021 \n Awarded _Best Human-Autonomy Teaming Paper_"
@@ -90,7 +107,7 @@ Publications:
       - "**Miranda, L.** & Garibay O.O. (2021). Multi-agent Naïve Utility
         Calculus: Intent Recognition in the Stag-Hunt Game. Social, Cultural,
         and Behavioral Modeling. SBP-BRiMS 2021. Lecture Notes in Computer
-        Science, vol 12720. [https://doi.org/10.1007/978-3-030-80387-2-32
+        Science, vol 12720. [10.1007/978-3-030-80387 232
         ](https://doi.org/10.1007/978-3-030-80387-2_32)"
   -
     when: "2020"
@@ -98,7 +115,7 @@ Publications:
       - "**Miranda, L.** & Freeman, J. (2020). The two types of society: 
         Computationally revealing recurrent social formations and their 
         evolutionary trajectories. _PLoS One_ 
-        [https://doi.org/10.1371/journal.pone.0232609
+        [10.1371/journal.pone.0232609
         ](https://doi.org/10.1371/journal.pone.0232609)"
 
 Presentations:
@@ -116,8 +133,9 @@ Research Experience:
     when: "Summer 2022"
     what:
       - "**PIBBSS Summer Research Fellow**. Awarded the 9,000 USD 
-        Principles of Intelligent Behavior in Biological and Social Systems
-        (PIBBSS) [summer research fellowship](https://www.pibbss.ai/) to conduct
+        [Principles of Intelligent Behavior in Biological and Social Systems
+        ](https://www.pibbss.ai/)
+        (PIBBSS) summer research fellowship to conduct
         research on human-aligned AI systems."
   -
     when: "August 2020 - \n May 2022 \n (4 semesters)"
@@ -132,15 +150,23 @@ Research Experience:
     what:
       - "**Undergraduate Research Assistant.** _Utah State University
         Anthropology Program._ As part of an international archaeological
-        working group known as PEOPLE 3000, I helped to create and manage a new
-        radiocarbon database larger and more complete than any other. I also
+        working group known as 
+        [PEOPLE 3000
+        ](https://pastglobalchanges.org/science/wg/people-3000/intro), 
+        I helped to create and manage a new
+        [radiocarbon database
+        ](https://www.nature.com/articles/s41597-022-01118-7)
+        larger and more complete than any other. I also
         worked to program and test an online social experiment studying
         cooperation in a common-pool resource management scenario."
   -
     when: "Summer 2019"
     what:
       - "**Peak Summer Research Fellow.** _Utah State University._ One of ten
-        recipients awarded a 4,000 USD fellowship for highly-engaged
+        recipients awarded the 4,000 USD
+        [Peak Summer Research Fellowship
+        ](https://web.archive.org/web/20220521174643/https://research.usu.edu/peakfellows/index)
+        for highly-engaged
         undergraduate researchers to conduct work on a proposed project over 
         the summer. The research conducted under this fellowship produced my 
         first publication, listed above."
@@ -148,13 +174,18 @@ Research Experience:
     when: "Summer 2018"
     what:
       - "**NASA Space Grant Consortium Fellow.** 
-        Awarded a 1,600 USD fellowship to continue work on a CubeSat mission 
+        Awarded a 1,600 USD 
+        [NASA space grant fellowship](http://www.utahspacegrant.com/about/)
+        to continue work on a CubeSat mission 
         as the software team leader for the USU Get Away Special Microgravity 
         Research team. Managed a team of ten other programmers. Wrote software 
         for a prototype platform that successfully served over a dozen 
-        high-altitude balloon flights. The project (GASPACS) was successfully 
-        launched to the International Space Station as part of the SpaceX
-        CRS-24 mission and deployed into low Earth orbit on 26 January 2022."
+        high-altitude balloon flights. The project 
+        ([GASPACS](https://web.archive.org/web/20220521175042/https://www.usu.edu/physics/gas/projects/gaspacs)) 
+        was successfully 
+        launched to the International Space Station as part of the 
+        [SpaceX CRS-24](https://en.wikipedia.org/wiki/SpaceX_CRS-24)
+        mission and deployed into low Earth orbit on 26 January 2022."
 
 Teaching Experience:
   -
@@ -185,7 +216,8 @@ Industry Experience:
   -
     when: "May 2017 - \n October 2017 \n (6 months)"
     what:
-      - "**Embedded Engineering Assistant.** _Space Dynamics Laboratory_,
+      - "**Embedded Engineering Assistant.** 
+        [Space Dynamics Laboratory](https://sdl.usu.edu/),
         Logan, Utah. USA. Developed software for embedded systems in C++. Built
         a technology demo showcasing a multi-agent platform which toured the
         USA to help garner  funding. Developed, documented, and standardized
@@ -197,19 +229,22 @@ Scholarships:
     when: "November 2021 - \n August 2022 \n (8 months)"
     what:
       - "**PAGES Data Stewardship Scholarship.** Received a 4,400 USD
-        scholarship from PAGES (Past Global Changes) to continue stewardship
+        [scholarship from PAGES](https://web.archive.org/web/20220521175755/https://pastglobalchanges.org/science/wg/people-3000/data) (Past Global Changes) to continue stewardship
         work on the p3k14c archaeological radiocarbon database as part of the
         PEOPLE 3,000 working group."
   -
     when: "Summer 2018"
     what:
-      - "**Honors Study Abroad Scholarship.** Received a 1,000 USD scholarship
-        from the USU Honors Program used towards a semester studying historical
+      - "**Honors Study Abroad Scholarship.** Received a 1,000 USD [scholarship
+        from the USU Honors Program](https://web.archive.org/web/20220521180015/https://www.usu.edu/honors/scholarships/honors-research-fund)
+        used towards a semester studying historical
         European art and theatre in Italy, Switzerland, France, and the UK."
   -
     when: "2016-2020 \n (4 years)"
     what:
-      - "**Daniels Scholarship.** Received the full-ride Daniels Scholarship
+      - "**Daniels Scholarship.** Received the full-ride 
+        [Daniels Scholarship
+        ](https://www.danielsfund.org/scholarships/daniels-scholarship-program/overview)
         (final award amount: 58,100 USD) to attend any four-year Bachelor's
         program in the USA for demonstrating exceptional leadership ability,
         strength of character, and commitment to community betterment. To
@@ -221,18 +256,25 @@ Scholarships:
 
 Awards:
   -
+    when: "May 2022"
+    what:
+      - "**Honorary 10,000th Master's Degree** conferred by the UCF 
+        College of Engineering and Computer Science. [Awarded for my 
+        accomplishments at UCF](https://web.archive.org/web/20220513211358/https://www.cecs.ucf.edu/college-awards-2000th-doctoral-and-10000th-masters-degrees-to-honorary-recipients/)
+        via faculy nomination."
+  -
     when: "April 2022"
     what: 
       - "**Best 2021 Paper** within the Human-Centered Artificial
-        Intelligence Research Laboratory. Awarded by the lab director for our
-        publication in
-        [SBP-BRiMS 2021](https://doi.org/10.1007/978-3-030-80387-2-32)."
+        Intelligence Research Laboratory. Awarded by the lab director for my
+        [publication in
+        SBP-BRiMS 2021](https://doi.org/10.1007/978-3-030-80387-2_32)."
   -
     when: "July 2021"
     what:
       - "**Best Human-Autonomy Teaming Paper**. Awarded by the 
         _Social, Cultural, and Behavioral Modeling (SBP-BRiMS) 2021_ conference
-        for our [submission](https://doi.org/10.1007/978-3-030-80387-2-32)."
+        for my [submission](https://doi.org/10i1007/978-3-030-80387-2_32)."
 
 Skills:
   -

@@ -56,9 +56,7 @@ def write(tex):
 def mdToTex(md):
     # Bold
     tex = re.sub(r"\*\*([^\*]*)\*\*", r"\\textbf{\1}", md)
-    # Italics
-    tex = re.sub(r"\_([^\*]*)\_", r"\\textit{\1}", tex)
-    # Ampersands
+   # Ampersands
     tex = tex.replace("&","\&")
     # Newlines
     tex = tex.replace("\n",TEXBR)
@@ -66,7 +64,12 @@ def mdToTex(md):
     linkPattern = re.compile(r'\[([^][]+)\](\(((?:[^()]+|(?2))+)\))')
     for match in linkPattern.finditer(tex):
         text, _, url = match.groups()
-        tex = tex.replace(f'[{text}]({url})', texCmd('href', [url,text]))
+        # Fix for accidentally interpreting underscores as italics
+        newUrl = str(url).replace('_','\\%5F')
+        tex = tex.replace(f'[{text}]({url})', texCmd('href', [newUrl,text]))
+
+    # Italics
+    tex = re.sub(r"\_([^\*]*)\_", r"\\textit{\1}", tex)
  
     return tex
 
