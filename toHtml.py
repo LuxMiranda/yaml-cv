@@ -47,7 +47,7 @@ def mdToTex(md):
     linkPattern = re.compile(r'\[([^][]+)\](\(((?:[^()]+|(?2))+)\))')
     for match in linkPattern.finditer(tex):
         text, _, url = match.groups()
-        newUrl = str(url).replace('_','\\%5F')
+        newUrl = str(url).replace('_','%5F')
         tex = tex.replace(f'[{text}]({url})', link(newUrl,text))
 
     # Italics
