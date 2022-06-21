@@ -36,7 +36,7 @@ def cvitem(when, what):
 def link(url, text):
     return f'<a href="{url}"><strong>{text}</strong></a>'
 
-def mdToTex(md):
+def mdToTex(md,i=0,nitems=0):
     # Bold
     tex = re.sub(r"\*\*([^\*]*)\*\*", r"<strong>\1</strong>", md)
     # Ampersands
@@ -52,13 +52,21 @@ def mdToTex(md):
 
     # Italics
     tex = re.sub(r"\_([^\*]*)\_", r"<i>\1</i>", tex)
+
+    # Make a list
+    if i == 1:
+        tex = '<ul><li>' + tex + '</li>'
+    elif i > 1:
+        tex = '<li>' + tex + '</li>'
+    if i != 0 and i == nitems - 1:
+        tex = tex + '</ul>'
     return tex
 
 
 def makeSectionTex(sec, cv, sub=False):
     sectionTex = section(sec,sub) + '\n' + '\n'.join([
         cvitem(mdToTex(item['when']), BR.join([
-                mdToTex(line) for line in item['what']
+                mdToTex(line,i,len(item['what'])) for i,line in enumerate(item['what'])
             ])) for item in cv[sec]
     ])
     subsecsTex = ''.join(

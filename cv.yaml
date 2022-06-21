@@ -8,9 +8,9 @@ tex-pagebreaks: []
 ### Header
 firstname: Lux
 lastname: Miranda
-pronouns-en: they/she
-pronouns-sv: (hen/hon)
-pronouns-no: (hen/hun)
+pronouns-en: she/they
+pronouns-sv: (hon/hen)
+pronouns-no: (hun/hen)
 picture: lux.png
 links:
   -
@@ -27,15 +27,13 @@ Education:
   -
     when: "2022-2027 \n (expected)"
     what:
-      - "**PhD in Computer Science**"
-      - "[Uppsala University](https://en.wikipedia.org/wiki/Uppsala_University),
-        _Sweden, European Union_"
+      - "**PhD in Computer Science** \n
+        [Uppsala University](https://en.wikipedia.org/wiki/Uppsala_University), _Sweden, European Union_"
       - Graduation expected May 2027 
   -
     when: 2020-2022
     what:
-      - "**Master of Science in Industrial Engineering**"
-      - "[University of Central Florida](https://en.wikipedia.org/wiki/University_of_Central_Florida)
+      - "**Master of Science in Industrial Engineering** \n [University of Central Florida](https://en.wikipedia.org/wiki/University_of_Central_Florida)
         (UCF), _Orlando, Florida, USA_"
       - "Honorary [10,000th master's degree](https://web.archive.org/web/20220513211358/https://www.cecs.ucf.edu/college-awards-2000th-doctoral-and-10000th-masters-degrees-to-honorary-recipients/) conferred by the college"
       - "[Thesis](https://stars.library.ucf.edu/etd2020/1054):
@@ -76,8 +74,7 @@ Publications:
       - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2022). 
         Evolutionary model discovery of human behavioral factors driving
         decision-making in an irrigation experiment. Invited and in review for
-        a special edition of the _Journal of Artificial Societies and Social
-        Simulation (JASSS)_."
+        a special track of the _Social Simulation Conference 2022_."
   -
     when: "2022 \n (Invited; In review)"
     what:
@@ -135,7 +132,8 @@ Research Experience:
         [Principles of Intelligent Behavior in Biological and Social Systems
         ](https://www.pibbss.ai/)
         (PIBBSS) summer research fellowship to conduct
-        research on human-aligned AI systems."
+        research on [human-aligned AI systems
+        ](https://en.wikipedia.org/wiki/AI_alignment)."
   -
     when: "August 2020 - \n May 2022 \n (4 semesters)"
     what:
@@ -154,7 +152,7 @@ Research Experience:
         ](https://pastglobalchanges.org/science/wg/people-3000/intro), 
         I helped to create and manage a new
         [radiocarbon database
-        ](https://www.nature.com/articles/s41597-022-01118-7)
+        ](https://www.p3k14c.org/)
         larger and more complete than any other. I also
         worked to program and test an online social experiment studying
         cooperation in a common-pool resource management scenario."
