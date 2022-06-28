@@ -2,8 +2,9 @@
 languages: [en, sv, "no"]
 sections: [Education, Publications, Presentations,
            Research Experience, Teaching Experience, Industry Experience,
-           Scholarships, Awards, Skills]
-subsections: { Education : [Supplemental Courses] }
+           Scholarships, Awards, Supplemental Courses, Skills]
+#subsections: { Education : [Supplemental Courses] }
+subsections: {}
 tex-pagebreaks: []
 ### Header
 firstname: Lux
@@ -54,14 +55,6 @@ Education:
         _Computationally revealing recurrent social formations
         and their evolutionary trajectories_"
         
-Supplemental Courses:
-  -
-    when: "January 2021"
-    what: 
-      - "**Agent-Based Modeling of Social-Ecological Systems**, 
-        [CoMSES Net International Winter School](https://web.archive.org/web/20210118141023/https://complexity.asu.edu/cbie/winterschool),
-        Arizona State University"
-
 Publications:
   -
     when: "2022 \n (Submitted)"
@@ -273,6 +266,15 @@ Awards:
       - "**Best Human-Autonomy Teaming Paper**. Awarded by the 
         _Social, Cultural, and Behavioral Modeling (SBP-BRiMS) 2021_ conference
         for my [submission](https://doi.org/10i1007/978-3-030-80387-2_32)."
+
+Supplemental Courses:
+  -
+    when: "January 2021"
+    what: 
+      - "**Agent-Based Modeling of Social-Ecological Systems**, 
+        [CoMSES Net International Winter School](https://web.archive.org/web/20210118141023/https://complexity.asu.edu/cbie/winterschool),
+        Arizona State University"
+
 
 Skills:
   -
