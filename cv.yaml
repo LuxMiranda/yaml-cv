@@ -5,7 +5,7 @@ sections: [Education, Publications, Presentations,
            Scholarships, Awards, Supplemental Courses, Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
-tex-pagebreaks: []
+tex-pagebreaks: [Scholarships]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -110,11 +110,25 @@ Publications:
 
 Presentations:
   -
+    when: "07 April 2022"
+    what:
+      - "Humans in Algorithms, Algorithms in Humans: Understanding Cooperation
+        and Creating Social AI with Causal Generative Models. _Thesis Defense_.
+        University of Central Florida, Orlando, Florida, USA"
+  -
+    when: "07 July 2021"
+    what:
+      - "Multi-agent Naïve Utility
+        Calculus: Intent Recognition in the Stag-Hunt Game. _2021 International
+        Conference on Social Computing, Behavioral-Cultural Modeling, & 
+        Prediction and Behavior Representation in Modeling and Simulation_.
+        Virtual"
+  -
     when: "10 June 2021"
     what:
       - "Evolutionary model discovery of behavioral factors driving
         decision-making in an irrigation experiment. _Inverse Generative Social
-        Science (iGSS) Workshop 2021_. 
+        Science (iGSS) Workshop 2021_. Virtual
         [https://youtu.be/Z7zmaHVSHdc](https://youtu.be/Z7zmaHVSHdc)"
 
 
