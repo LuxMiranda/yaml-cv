@@ -70,12 +70,14 @@ Publications:
         decision-making in an irrigation experiment. Invited and in press for
         a special track of the _Social Simulation Conference 2022_."
   -
-    when: "2022 \n (Invited; In press)"
+    when: "2022 \n _Invited manuscript_"
     what:
-      - "**Miranda, L.** & Garibay O.O. (2022). Approaching (Super)Human Intent
-        Recognition in Stag Hunt with the Naïve Utility Calculus Generative
-        Model. Invited and in press for a special issue of _Computational and
-        Mathematical Organization Theory_."
+      - "**Miranda, L.** & Garibay O.O. (2022). Approaching (super)human intent
+        recognition in stag hunt with the Naïve Utility Calculus generative
+        model. _Computational and
+        Mathematical Organization Theory_.
+        [https://doi.org/10.1007/s10588-022-09367-y
+        ](https://doi.org/10.1007/s10588-022-09367-y)"
   -
     when: "2022"
     what:
@@ -187,7 +189,8 @@ Research Experience:
         for a prototype platform that successfully served over a dozen 
         high-altitude balloon flights. The project 
         ([GASPACS](https://en.wikipedia.org/wiki/GASPACS)) 
-        was successfully 
+        was the world's first CubeSat developed entirely by undergraduate
+        students. It successfully served its mission after being
         launched to the International Space Station as part of the 
         [SpaceX CRS-24](https://en.wikipedia.org/wiki/SpaceX_CRS-24)
         mission and deployed into low Earth orbit on 26 January 2022."
@@ -235,7 +238,7 @@ Scholarships:
     what:
       - "**PAGES Data Stewardship Scholarship.** Received a 4,400 USD
         [scholarship from PAGES](https://web.archive.org/web/20220521175755/https://pastglobalchanges.org/science/wg/people-3000/data) (Past Global Changes) to continue stewardship
-        work on the p3k14c archaeological radiocarbon database as part of the
+    work on the [p3k14c archaeological radiocarbon database](https://www.p3k14c.org/) as part of the
         PEOPLE 3,000 working group."
   -
     when: "Summer 2018"
