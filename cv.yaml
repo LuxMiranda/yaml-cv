@@ -5,7 +5,7 @@ sections: [Education, Publications, Presentations,
            Scholarships, Awards, Supplemental Courses, Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
-tex-pagebreaks: [Scholarships]
+tex-pagebreaks: [Industry Experience, Skills]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -21,8 +21,8 @@ links:
     txt: Google Scholar Profile
     url: https://scholar.google.com/citations?hl=en\&user=4Kvx61cAAAAJ
   -
-    txt: contact@luxmiranda.com
-    url: mailto:contact@luxmiranda.com
+    txt: lux.miranda@it.uu.se
+    url: mailto:lux.miranda@it.uu.se
 ### Sections
 Education:
   -
@@ -61,14 +61,14 @@ Publications:
     what: 
       - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2022). 
         Social infrastructure moderates the energy use of polities. Submitted to 
-        _Human Ecology_."
+        _Cross-Cultural Research_."
   -
     when: "2022 \n (Invited; In press)"
     what: 
       - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2022). 
         Evolutionary model discovery of human behavioral factors driving
         decision-making in an irrigation experiment. Invited and in press for
-        a special track of the _Social Simulation Conference 2022_."
+        a special issue of the _Journal of Artificial Societies and Social Sciences_."
   -
     when: "2022 \n _Invited manuscript_"
     what:
@@ -111,6 +111,12 @@ Publications:
         ](https://doi.org/10.1371/journal.pone.0232609)"
 
 Presentations:
+  -
+    when: "15 September 2022"
+    what:
+      - "Stochasity can not be ignored: Results from the evolutionary model discovery of 
+        behavioral factors driving decision-making in an irrigation experiment.
+        _Social Simulation Conference 2022_. Milan, Italy / Virtual." 
   -
     when: "07 April 2022"
     what:
