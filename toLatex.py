@@ -53,7 +53,7 @@ def write(tex):
     texFile.close()
 
 
-def mdToTex(md):
+def mdToTex(md, i=0, nitems=0):
     # Bold
     tex = re.sub(r"\*\*([^\*]*)\*\*", r"\\textbf{\1}", md)
    # Ampersands
@@ -70,7 +70,16 @@ def mdToTex(md):
 
     # Italics
     tex = re.sub(r"\_([^\*]*)\_", r"\\textit{\1}", tex)
- 
+
+    # Make a list
+    bullet = "\\item[$\\usym{2727}$]"
+    if i == 1:
+        tex = '\\begin{itemize}' + bullet + tex
+    elif i > 1:
+        tex = ' ' + bullet + tex
+    if i != 0 and i == nitems - 1:
+        tex = tex + '\\end{itemize}\\vspace*{-\\baselineskip}\\leavevmode'
+
     return tex
 
 def texCmd(name, args):
@@ -88,7 +97,7 @@ def cvitem(when, what):
 def makeSectionTex(sec, cv, sub=False):
     sectionTex = pagebreak(sec,cv) + section(sec,sub) + '\n' + '\n'.join([
         cvitem(mdToTex(item['when']), TEXBR.join([
-                mdToTex(line) for line in item['what']
+                mdToTex(line,i, len(item['what'])) for i,line in enumerate(item['what'])
             ])) for item in cv[sec]
     ])
     subsecsTex = ''.join(

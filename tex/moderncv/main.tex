@@ -1,6 +1,8 @@
 \documentclass[12pt,a4paper,sans]{moderncv} 
 \usepackage[document]{ragged2e}
 
+\usepackage{./utfsym}
+
 \moderncvstyle{classic}
 \moderncvcolor{green} 
 
@@ -48,21 +50,23 @@ BoldItalicFont=EBGaramond-MediumItalic.ttf
 
 \makecvtitle
 
+\newcommand{\sitem}{\ \ \ \ $\usym{2727}$ \ }
+
 \section{Education}
 \cvitem{2022-2027 \\
  (expected)}{\textbf{PhD in Computer Science}\\
-\href{https://en.wikipedia.org/wiki/Uppsala\%5FUniversity}{Uppsala University}, \textit{Sweden, European Union}\\
-Graduation expected May 2027}
+\begin{itemize}\item[$\usym{2727}$]\href{https://en.wikipedia.org/wiki/Uppsala\%5FUniversity}{Uppsala University}, \textit{Sweden, European Union}\\
+ \item[$\usym{2727}$]Defense expected May 2027\end{itemize}\vspace*{-\baselineskip}\leavevmode}
 \cvitem{2020-2022}{\textbf{Master of Science in Industrial Engineering}\\
-\href{https://en.wikipedia.org/wiki/University\%5Fof\%5FCentral\%5FFlorida}{University of Central Florida} (UCF), \textit{Orlando, Florida, USA}\\
-Honorary \href{https://web.archive.org/web/20220513211358/https://www.cecs.ucf.edu/college-awards-2000th-doctoral-and-10000th-masters-degrees-to-honorary-recipients/}{10,000th master's degree} conferred by the college\\
-\href{https://stars.library.ucf.edu/etd2020/1054}{Thesis}: \textit{Humans in algorithms, algorithms in humans: Understanding cooperation and creating social AI with causal generative models}}
+\begin{itemize}\item[$\usym{2727}$]\href{https://en.wikipedia.org/wiki/University\%5Fof\%5FCentral\%5FFlorida}{University of Central Florida} (UCF), \textit{Orlando, Florida, USA}\\
+ \item[$\usym{2727}$]Honorary \href{https://web.archive.org/web/20220513211358/https://www.cecs.ucf.edu/college-awards-2000th-doctoral-and-10000th-masters-degrees-to-honorary-recipients/}{10,000th master's degree} conferred by the college\\
+ \item[$\usym{2727}$]\href{https://stars.library.ucf.edu/etd2020/1054}{Thesis}: \textit{Humans in algorithms, algorithms in humans: Understanding cooperation and creating social AI with causal generative models}\end{itemize}\vspace*{-\baselineskip}\leavevmode}
 \cvitem{2016-2020}{\textbf{Bachelor of Science with University Honors, double-major in Computational Mathematics and Computer Science, minor in Anthropology, \textit{Cum Laude}}\\
-\href{https://en.wikipedia.org/wiki/Utah\%5FState\%5FUniversity}{Utah State University } (USU) , \textit{Logan, Utah, USA}\\
-\href{https://doi.org/10.1371/journal.pone.0232609}{Honors thesis}: \textit{Computationally revealing recurrent social formations and their evolutionary trajectories}}
+\begin{itemize}\item[$\usym{2727}$]\href{https://en.wikipedia.org/wiki/Utah\%5FState\%5FUniversity}{Utah State University } (USU) , \textit{Logan, Utah, USA}\\
+ \item[$\usym{2727}$]\href{https://doi.org/10.1371/journal.pone.0232609}{Honors thesis}: \textit{Computationally revealing recurrent social formations and their evolutionary trajectories}\end{itemize}\vspace*{-\baselineskip}\leavevmode}
 \section{Publications}
 \cvitem{2022 \\
- (Submitted)}{Freeman, J., Baggio, J., \textbf{Miranda, L.}, \& Anderies, J.M. (2022). Social infrastructure moderates the energy use of polities. Submitted to \textit{Cross-Cultural Research}.}
+ (Accepted)}{Freeman, J., Baggio, J., \textbf{Miranda, L.}, \& Anderies, J.M. (2022). Social infrastructure moderates the energy use of polities. Accepted / in revision, \textit{Cross-Cultural Research}.}
 \cvitem{2022 \\
  (Invited; In press)}{\textbf{Miranda, L.}, Garibay O.O., \& Baggio, J. (2022). Evolutionary model discovery of human behavioral factors driving decision-making in an irrigation experiment. Invited and in press for a special issue of the \textit{Journal of Artificial Societies and Social Sciences}.}
 \cvitem{2022 \\

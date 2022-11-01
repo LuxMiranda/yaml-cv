@@ -2,7 +2,7 @@
 
 python toLatex.py "$@"
 cd tex/moderncv/
-xelatex -interaction=batchmode main
+xelatex -interaction=scrollmode main
 cd ../../
 cp tex/moderncv/main.pdf CV.pdf
 cp CV.pdf ../luxmiranda.github.io/CV.pdf
