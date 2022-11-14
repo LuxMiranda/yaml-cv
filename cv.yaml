@@ -60,7 +60,7 @@ Publications:
     when: "2022 \n (Accepted)"
     what: 
       - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2022). 
-        Social infrastructure moderates the energy use of polities. 
+        Infrastructure and the energy use of human polities. 
         Accepted / in revision, _Cross-Cultural Research_."
   -
     when: "2022 \n (Invited; In press)"
@@ -141,6 +141,13 @@ Presentations:
 
 
 Research Experience:
+  -
+    when: "August 2022 - \n Present"
+    what:
+      - "**Doctoral student**, _[Uppsala Social Robotics Lab
+         ](https://usr-lab.github.io)_. Studying the ethics and diversification
+         of robot and user identity, expansive mind/body spaces, and their 
+         relation to AI alignment."
   -
     when: "Summer 2022"
     what:

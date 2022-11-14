@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.11.1)  1 NOV 2022 13:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.11.1)  14 NOV 2022 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,21 +1131,73 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 67--67
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 80--80
+Overfull \hbox (4.796pt too wide) in paragraph at lines 79--79
  []|[]|[][]|
  []
 
-[2] (./main.aux)
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 84--84
+ []|[]|[][]|
+ []
+
+[2]
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 95--95
+ []|[]|[][]|
+ []
+
+[3]
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 106--106
+ []|[]|[][]|
+ []
+
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 110--110
+ []|[]|[][]|
+ []
+
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 117--117
+ []|[]|[][]|
+ []
+
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 121--121
+ []|[]|[][]|
+ []
+
+[4]
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 124--124
+ []|[]|[][]|
+ []
+
+[5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 450DFE52D0AC617A13D5055C7A47DEAF;332.
+(rerunfilecheck)             Checksum: 30AC731DE6A72C1D242E080A01E40720;1119.
  ) 
 Here is how much of TeX's memory you used:
  25465 strings out of 478190
  533204 string characters out of 5854827
- 1014946 words of memory out of 5000000
+ 1016098 words of memory out of 5000000
  45575 multiletter control sequences out of 15000+600000
  473511 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  103i,14n,105p,997b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (2 pages).
+Output written on main.pdf (5 pages).
