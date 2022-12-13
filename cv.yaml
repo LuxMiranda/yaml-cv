@@ -2,10 +2,10 @@
 languages: [en, sv, "no"]
 sections: [Education, Publications, Presentations,
            Research Experience, Teaching Experience, Industry Experience,
-           Scholarships, Awards, Supplemental Courses, Skills]
+           Scholarships, Awards, Winter Schools, Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
-tex-pagebreaks: [Industry Experience, Skills]
+tex-pagebreaks: [Winter Schools]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -63,11 +63,11 @@ Publications:
         Infrastructure and the energy use of human polities. 
         Accepted / in revision, _Cross-Cultural Research_."
   -
-    when: "2022 \n (Invited; In press)"
+    when: "2022 \n (Invited; In review)"
     what: 
       - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2022). 
         Evolutionary model discovery of human behavioral factors driving
-        decision-making in an irrigation experiment. Invited and in press for
+        decision-making in an irrigation experiment. Invited and in review for
         a special issue of the _Journal of Artificial Societies and Social Sciences_."
   -
     when: "2022 \n _Invited manuscript_"
@@ -112,11 +112,16 @@ Publications:
 
 Presentations:
   -
+    when: "06 December 2022"
+    what:
+      - "Interactive exhibit: What does it mean to ascribe identity to robots?
+        _HRI Winterschool on Embodied AI 2022_, Ghent University, Belgium"
+  -
     when: "15 September 2022"
     what:
       - "Stochasity can not be ignored: Results from the evolutionary model discovery of 
         behavioral factors driving decision-making in an irrigation experiment.
-        _Social Simulation Conference 2022_. Milan, Italy / Virtual." 
+        _Social Simulation Conference 2022_. Milan, Italy / Virtual" 
   -
     when: "07 April 2022"
     what:
@@ -210,6 +215,12 @@ Research Experience:
 
 Teaching Experience:
   -
+    when: "August 2022 - \n Present"
+    what: 
+      - "**Teaching Assistant.** _Uppsala University._ Serving as a TA for 
+        courses in intelligent interactive systems and social robotics."
+ 
+  -
     when: "August 2020 - \n May 2022 \n (4 semesters)"
     what: 
       - "**Graduate Teaching Assistant.** _University of Central Florida
@@ -297,14 +308,17 @@ Awards:
         _Social, Cultural, and Behavioral Modeling (SBP-BRiMS) 2021_ conference
         for my [submission](https://doi.org/10i1007/978-3-030-80387-2_32)."
 
-Supplemental Courses:
+Winter Schools:
+  -
+    when: "December 2022"
+    what: 
+      - "**[HRI Winterschool on Embodied AI](https://web.archive.org/web/20221213114341/https://hriwinterschool.com/)**, 
+        Ghent University, Belgium"
   -
     when: "January 2021"
     what: 
-      - "**Agent-Based Modeling of Social-Ecological Systems**, 
-        [CoMSES Net International Winter School](https://web.archive.org/web/20210118141023/https://complexity.asu.edu/cbie/winterschool),
-        Arizona State University"
-
+      - "**[Agent-Based Modeling of Social-Ecological Systems](https://web.archive.org/web/20210118141023/https://complexity.asu.edu/cbie/winterschool)**,
+        Arizona State University, USA"
 
 Skills:
   -
