@@ -57,18 +57,19 @@ Education:
         
 Publications:
   -
-    when: "2022 \n (Accepted)"
+    when: "2023 \n (Invited; In review)"
     what: 
-      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2022). 
-        Infrastructure and the energy use of human polities. 
-        Accepted / in revision, _Cross-Cultural Research_."
-  -
-    when: "2022 \n (Invited; In review)"
-    what: 
-      - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2022). 
+      - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2023). 
         Evolutionary model discovery of human behavioral factors driving
         decision-making in an irrigation experiment. Invited and in review for
         a special issue of the _Journal of Artificial Societies and Social Sciences_."
+  -
+    when: "2023"
+    what: 
+      - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2023). 
+        Infrastructure and the energy use of human polities.
+        _Cross-Cultural Research_. [https://doi.org/10.1177/10693971221149779
+        ](https://doi.org/10.1177/10693971221149779)"
   -
     when: "2022 \n _Invited manuscript_"
     what:
