@@ -53,6 +53,13 @@ def mdToTex(md,i=0,nitems=0):
     # Italics
     tex = re.sub(r"\_([^\*]*)\_", r"<i>\1</i>", tex)
 
+    # Currency amounts
+    currency_cmds = re.findall(r'CurrencyUSD\([0-9]*\)', tex)
+    for cmd in currency_cmds:
+        amount = int(cmd[12:-1])
+        formatted_amount = '${:,} USD'.format(amount)
+        tex = tex.replace(cmd, formatted_amount)
+
     # Make a list
     if i == 1:
         tex = '<ul><li>' + tex + '</li>'

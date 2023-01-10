@@ -56,7 +56,7 @@ def write(tex):
 def mdToTex(md, i=0, nitems=0):
     # Bold
     tex = re.sub(r"\*\*([^\*]*)\*\*", r"\\textbf{\1}", md)
-   # Ampersands
+    # Ampersands
     tex = tex.replace("&","\&")
     # Newlines
     tex = tex.replace("\n",TEXBR)
@@ -70,6 +70,13 @@ def mdToTex(md, i=0, nitems=0):
 
     # Italics
     tex = re.sub(r"\_([^\*]*)\_", r"\\textit{\1}", tex)
+
+    # Currency amounts
+    currency_cmds = re.findall(r'CurrencyUSD\([0-9]*\)', tex)
+    for cmd in currency_cmds:
+        amount = int(cmd[12:-1])
+        formatted_amount = '\${:,} USD'.format(amount)
+        tex = tex.replace(cmd, formatted_amount)
 
     # Make a list
     bullet = "\\item[$\\usym{2727}$]"

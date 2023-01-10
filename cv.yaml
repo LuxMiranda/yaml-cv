@@ -157,7 +157,7 @@ Research Experience:
   -
     when: "Summer 2022"
     what:
-      - "**PIBBSS Summer Research Fellow**. Awarded the 9,000 USD 
+      - "**PIBBSS Summer Research Fellow**. Awarded the CurrencyUSD(9000) 
         [Principles of Intelligent Behavior in Biological and Social Systems
         ](https://www.pibbss.ai/)
         (PIBBSS) summer research fellowship to conduct
@@ -189,7 +189,7 @@ Research Experience:
     when: "Summer 2019"
     what:
       - "**Peak Summer Research Fellow.** _Utah State University._ One of ten
-        recipients awarded the 4,000 USD
+        recipients awarded the CurrencyUSD(4000)
         [Peak Summer Research Fellowship
         ](https://web.archive.org/web/20220521174643/https://research.usu.edu/peakfellows/index)
         for highly-engaged
@@ -200,7 +200,7 @@ Research Experience:
     when: "Summer 2018"
     what:
       - "**NASA Space Grant Consortium Fellow.** 
-        Awarded a 1,600 USD 
+        Awarded a CurrencyUSD(1600)
         [NASA space grant fellowship](http://www.utahspacegrant.com/about/)
         to continue work on a CubeSat mission 
         as the software team leader for the USU Get Away Special Microgravity 
@@ -261,14 +261,14 @@ Scholarships:
   -
     when: "November 2021 - \n August 2022 \n (8 months)"
     what:
-      - "**PAGES Data Stewardship Scholarship.** Received a 4,400 USD
+      - "**PAGES Data Stewardship Scholarship.** Received a CurrencyUSD(4400)
         [scholarship from PAGES](https://web.archive.org/web/20220521175755/https://pastglobalchanges.org/science/wg/people-3000/data) (Past Global Changes) to continue stewardship
     work on the [p3k14c archaeological radiocarbon database](https://www.p3k14c.org/) as part of the
         PEOPLE 3,000 working group."
   -
     when: "Summer 2018"
     what:
-      - "**Honors Study Abroad Scholarship.** Received a 1,000 USD [scholarship
+      - "**Honors Study Abroad Scholarship.** Received a CurrencyUSD(1000) [scholarship
         from the USU Honors Program](https://web.archive.org/web/20220521180015/https://www.usu.edu/honors/scholarships/honors-research-fund)
         used towards a semester studying historical
         European art and theatre in Italy, Switzerland, France, and the UK."
@@ -278,7 +278,7 @@ Scholarships:
       - "**Daniels Scholarship.** Received the full-ride 
         [Daniels Scholarship
         ](https://www.danielsfund.org/scholarships/daniels-scholarship-program/overview)
-        (final award amount: 58,100 USD) to attend any four-year Bachelor's
+        (final award amount: CurrencyUSD(58100)) to attend any four-year Bachelor's
         program in the USA for demonstrating exceptional leadership ability,
         strength of character, and commitment to community betterment. To
         maintain the scholarship, I was required to strictly keep the 
@@ -334,8 +334,7 @@ Skills:
   -
     when: "Languages"
     what:
-      - "English (native; CEFR level C2), Swedish (conversational; CEFR level
-        B1)"
+      - "English (native; C2), Swedish (conversational; B2)"
   -
     when: "Cooking"
     what:
