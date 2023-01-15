@@ -5,7 +5,7 @@ sections: [Education, Publications, Presentations,
            Scholarships, Awards, Winter Schools, Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
-tex-pagebreaks: [Winter Schools]
+tex-pagebreaks: []
 ### Header
 firstname: Lux
 lastname: Miranda
