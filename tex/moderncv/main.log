@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.1.9)  10 JAN 2023 16:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.1.9)  15 JAN 2023 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,14 +1126,14 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 67--67
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 78--78
+Overfull \hbox (4.796pt too wide) in paragraph at lines 80--80
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 84--84
+Overfull \hbox (4.796pt too wide) in paragraph at lines 86--86
  []|[]|[][]|
  []
 
@@ -1141,7 +1141,7 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 84--84
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 95--95
+Overfull \hbox (4.796pt too wide) in paragraph at lines 97--97
  []|[]|[][]|
  []
 
@@ -1149,40 +1149,43 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 95--95
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 107--107
+Overfull \hbox (4.796pt too wide) in paragraph at lines 109--109
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 111--111
+Overfull \hbox (4.796pt too wide) in paragraph at lines 113--113
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 118--118
+Overfull \hbox (4.796pt too wide) in paragraph at lines 120--120
  []|[]|[][]|
  []
 
-[4]
+[4] [5]
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 123--123
+Overfull \hbox (4.796pt too wide) in paragraph at lines 125--125
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 126--126
+Overfull \hbox (4.796pt too wide) in paragraph at lines 128--128
  []|[]|[][]|
  []
 
-[5] (./main.aux)
+[6] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 381E976B67EE4810264E7CEB830AEC5B;1089.
  ) 
@@ -1195,4 +1198,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  103i,14n,105p,997b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (6 pages).

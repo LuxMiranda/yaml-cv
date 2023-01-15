@@ -64,6 +64,14 @@ Publications:
         decision-making in an irrigation experiment. Invited and in review for
         a special issue of the _Journal of Artificial Societies and Social Sciences_."
   -
+    when: "2023 \n (In press)"
+    what: 
+      - "**Miranda, L.**, Castellano, G., & Winkle, K. (2023). Examining the
+        State of Robot Identity. _Proceedings of the 18th Annual ACM/IEE
+        International Conference on Human-Robot Interaction (HRI '23)_. 
+        [https://doi.org/10.1145/3568294.3580168
+        ](https://doi.org/10.1145/3568294.3580168)"
+  -
     when: "2023"
     what: 
       - "Freeman, J., Baggio, J., **Miranda, L.**, & Anderies, J.M. (2023). 
@@ -98,8 +106,8 @@ Publications:
     when: "2021 \n Awarded _Best Human-Autonomy Teaming Paper_"
     what:
       - "**Miranda, L.** & Garibay O.O. (2021). Multi-agent Naïve Utility
-        Calculus: Intent Recognition in the Stag-Hunt Game. Social, Cultural,
-        and Behavioral Modeling. SBP-BRiMS 2021. Lecture Notes in Computer
+        Calculus: Intent Recognition in the Stag-Hunt Game. _Social, Cultural,
+        and Behavioral Modeling. SBP-BRiMS 2021._ Lecture Notes in Computer
         Science, vol 12720. [10.1007/978-3-030-80387 232
         ](https://doi.org/10.1007/978-3-030-80387-2_32)"
   -
