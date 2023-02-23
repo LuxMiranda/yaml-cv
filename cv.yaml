@@ -1,7 +1,26 @@
+# THINGS TO ADD:
+# Vi3 PhD Rep
+# Teaching at Uppsala
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 ### Definitions
 languages: [en, sv, "no"]
 sections: [Education, Publications, Presentations,
-           Research Experience, Teaching Experience, Industry Experience,
+           Research Experience, Teaching Experience, Administration Experience,
+           Industry Experience,
            Scholarships, Awards, Winter Schools, Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
@@ -227,7 +246,7 @@ Teaching Experience:
     when: "August 2022 - \n Present"
     what: 
       - "**Teaching Assistant.** _Uppsala University._ Serving as a TA for 
-        courses in intelligent interactive systems and social robotics."
+        courses in AI, social robotics, and system design."
  
   -
     when: "August 2020 - \n May 2022 \n (4 semesters)"
@@ -252,6 +271,16 @@ Teaching Experience:
       - "**Computer Science Tutor.** _Utah State University Department of 
         Computer Science._ Tutored students in introductory computer science
         courses. Primarily assisted with homework concepts and code debugging."
+
+Administration Experience:
+  -
+    when: "Fall 2022 - \n Present"
+    what:
+      - "**PhD Student Representative.** 
+        [Uppsala University Vi3 Division](https://www.it.uu.se/about_us/divisions/vi3).
+        Representing all PhD students within the human-machine
+        interaction unit in division-wide decisions (US equivalent: representing
+        a department within a college)."
 
 Industry Experience:
   -
