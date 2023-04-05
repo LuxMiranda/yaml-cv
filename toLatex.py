@@ -64,9 +64,13 @@ def mdToTex(md, i=0, nitems=0):
     linkPattern = re.compile(r'\[([^][]+)\](\(((?:[^()]+|(?2))+)\))')
     for match in linkPattern.finditer(tex):
         text, _, url = match.groups()
+        # Fix extra trailing space
+        newText = text
+        if text[-1] == ' ':
+            newText = text[:-1]
         # Fix for accidentally interpreting underscores as italics
         newUrl = str(url).replace('_','\\%5F')
-        tex = tex.replace(f'[{text}]({url})', texCmd('href', [newUrl,text]))
+        tex = tex.replace(f'[{text}]({url})', texCmd('href', [newUrl,newText]))
 
     # Italics
     tex = re.sub(r"\_([^\*]*)\_", r"\\textit{\1}", tex)
@@ -81,7 +85,7 @@ def mdToTex(md, i=0, nitems=0):
     # Make a list
     bullet = "\\item[$\\usym{2727}$]"
     if i == 1:
-        tex = '\\begin{itemize}' + bullet + tex
+        tex = '\\begin{itemize}[nosep,leftmargin=+1cm]' + bullet + tex
     elif i > 1:
         tex = ' ' + bullet + tex
     if i != 0 and i == nitems - 1:
@@ -96,7 +100,8 @@ def pagebreak(section, cv):
     return '\\newpage \n' if section in cv['tex-pagebreaks'] else ''
 
 def section(name,sub):
-    return texCmd('subsection' if sub else 'section', [name])
+    bolded = '\\textbf{' + name + '}'
+    return texCmd('subsection' if sub else 'section', [bolded])
 
 def cvitem(when, what):
     return texCmd('cvitem', [when,what])

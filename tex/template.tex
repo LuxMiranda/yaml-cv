@@ -17,6 +17,12 @@
 \usepackage{sectsty}
 \usepackage{fontspec}
 
+% Package for list indentation
+\usepackage{enumitem}
+
+% Make them links bold
+\usepackage{hyperref}
+
 \setsansfont[
 BoldFont=EBGaramond-Medium.ttf,
 ItalicFont=EBGaramond-Italic.ttf,
@@ -36,8 +42,13 @@ BoldItalicFont=EBGaramond-MediumItalic.ttf
 $LINKS CV current as of \today}
 \photo[80pt][0.6pt]{$PICTURE}
 
+\definecolor{luxOrange}{RGB}{255, 171, 26}
 \definecolor{LuxOffwhite}{HTML}{F9F9F9}
 \pagecolor{LuxOffwhite}
+
+% Make them links bold
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{\textcolor{luxOrange}{\bfseries#2}}}
 
 
 \begin{document}

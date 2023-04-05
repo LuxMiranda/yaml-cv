@@ -1,30 +1,21 @@
-# THINGS TO ADD:
-# Vi3 PhD Rep
-# Teaching at Uppsala
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 ### Definitions
 languages: [en, sv, "no"]
-sections: [Education, Publications, Presentations,
-           Research Experience, Teaching Experience, Administration Experience,
-           Industry Experience,
-           Scholarships, Awards, Winter Schools, Skills]
+sections: [
+  Education, 
+  Publications,
+  Research Experience, 
+  Teaching Experience, 
+  Administration Experience,
+  Industry Experience,
+  Scholarships, 
+  Awards,          
+  Presentations,
+  Winter Schools, 
+  Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
-tex-pagebreaks: []
+# Add section names here to apply a page-break before the header
+tex-pagebreaks: [Industry Experience]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -76,14 +67,22 @@ Education:
         
 Publications:
   -
-    when: "2023 \n (Invited; In review)"
+    when: "2023 \n (Submitted)"
+    what:
+      - "**Miranda, L.** & Milano, S. (2023). 
+        Recommender systems worsen (and likely cannot help) epistemic
+        polarization. Submitted to _Theoretical Aspects of Rationality & 
+        Knowledge (TARK-2023)_."
+  -
+    when: "2023 \n _Invited manuscript_"
     what: 
       - "**Miranda, L.**, Garibay O.O., & Baggio, J. (2023). 
         Evolutionary model discovery of human behavioral factors driving
-        decision-making in an irrigation experiment. Invited and in review for
-        a special issue of the _Journal of Artificial Societies and Social Sciences_."
+        decision-making in an irrigation experiment. _Journal of Artificial 
+        Societies and Social Sciences_. [https://doi.org/10.18564/jasss.5069
+        ](https://doi.org/10.18564/jasss.5069)"
   -
-    when: "2023 \n (In press)"
+    when: "2023"
     what: 
       - "**Miranda, L.**, Castellano, G., & Winkle, K. (2023). Examining the
         State of Robot Identity. _Proceedings of the 18th Annual ACM/IEE
@@ -140,6 +139,12 @@ Publications:
 
 Presentations:
   -
+    when: "14 March 2023"
+    what:
+      - "Examining the state of robot identity - Poster presentation.
+        _ACM/IEEE International Conference on Human-Robot Interaction_, Stockholm, Sweden"
+ 
+  -
     when: "06 December 2022"
     what:
       - "Interactive exhibit: What does it mean to ascribe identity to robots?
@@ -177,8 +182,8 @@ Research Experience:
   -
     when: "August 2022 - \n Present"
     what:
-      - "**Doctoral student**, _[Uppsala Social Robotics Lab
-         ](https://usr-lab.github.io)_. Studying the ethics and diversification
+      - "**Doctoral student**, [Uppsala Social Robotics Lab
+         ](https://usr-lab.github.io). Studying the ethics and diversification
          of robot and user identity, expansive mind/body spaces, and their 
          relation to AI alignment."
   -
@@ -371,7 +376,7 @@ Skills:
   -
     when: "Languages"
     what:
-      - "English (native; C2), Swedish (conversational; B2)"
+      - "English (native; C2), Swedish (conversational; B1)"
   -
     when: "Cooking"
     what:
