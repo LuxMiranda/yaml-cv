@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.1.9)  5 APR 2023 15:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.1.9)  5 APR 2023 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,11 +1076,12 @@ LaTeX Info: Redefining \nameref on input line 60.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\makecvheaddetailsbox=\box69
+\pagenumberwidth=\skip112
 LaTeX Font Info:    Font shape `TU/EBGaramond-Regular.ttf(0)/m/sl' in size <10.
 95> not available
 (Font)              Font shape `TU/EBGaramond-Regular.ttf(0)/m/it' tried instea
-d on input line 62.
+d on input line 60.
+\makecvheaddetailsbox=\box69
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
@@ -1104,8 +1105,8 @@ d on input line 62.
 \makecvheadpicturebox=\box70
 File: lux.png Graphic file (type bmp)
 <lux.png>
-\makecvheaddetailswidth=\skip112
-\makecvheadpicturewidth=\skip113
+\makecvheaddetailswidth=\skip113
+\makecvheadpicturewidth=\skip114
 \makecvheadnamebox=\box71
 
 Package fontspec Info: Font family 'Forum-Regular.ttf(0)' created for font
@@ -1220,23 +1221,14 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 144--144
  []
 
 [5] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 450DFE52D0AC617A13D5055C7A47DEAF;332
-(rerunfilecheck)             After:  4BB1EBA823EF5C4715168D0ED6867D88;1262.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4BB1EBA823EF5C4715168D0ED6867D88;1262.
  ) 
 Here is how much of TeX's memory you used:
- 27347 strings out of 478190
- 559044 string characters out of 5854828
- 1045179 words of memory out of 5000000
- 47432 multiletter control sequences out of 15000+600000
+ 27348 strings out of 478190
+ 559092 string characters out of 5854828
+ 1046471 words of memory out of 5000000
+ 47433 multiletter control sequences out of 15000+600000
  473551 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  103i,14n,105p,997b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
