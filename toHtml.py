@@ -17,8 +17,9 @@ def section(name,sub):
     line = '' if sub else '<img class="gradient" src="/images/gradient.png" />'
     headerclass = 'cvsubheader' if sub else 'cvheader'
     rowclass = 'cvsubheaderrow' if sub else 'cvheaderrow'
+    idname = name.lower().replace(' ','-')
     return f"""
-        <tr class="{rowclass}">
+        <tr class="{rowclass}" id="{idname}">
             <td class="{headerclass}">{line}</td>
             <td class="{headerclass}">{name}</td>
         </tr>
@@ -82,11 +83,24 @@ def makeSectionTex(sec, cv, sub=False):
             )
             if sec in cv['subsections'].keys() else ''
             )
+    sectionid = sec.lower().replace(' ','-')
     return sectionTex + subsecsTex
 
 
 def makeSections(cv):
     return '\n'.join([makeSectionTex(s, cv) for s in cv['sections']])
+
+def makeTocNav(cv):
+    litems = '\n'.join([
+        '<li><a href="#' + s.lower().replace(' ','-') + '">' + s + '</a></li>' for s in cv['sections']
+        ])
+    return f"""
+    <div class="section-nav">
+        <ol>
+            {litems}
+        </ol>
+    </div>
+    """
 
 def write(html):
     texFile = open(OUTPUT,'w')
@@ -96,7 +110,8 @@ def write(html):
 def main():
     cv, html = load()
     sections = makeSections(cv)
-    html = html.replace('$SECTIONS',sections)
+    tocNav   = makeTocNav(cv)
+    html = html.replace('$SECTIONS',sections + tocNav)
     write(html)
 
 if __name__ == '__main__':
