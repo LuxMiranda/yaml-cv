@@ -17,16 +17,15 @@ def section(name,sub):
     line = '' if sub else '<img class="gradient" src="/images/gradient.png" />'
     headerclass = 'cvsubheader' if sub else 'cvheader'
     rowclass = 'cvsubheaderrow' if sub else 'cvheaderrow'
-    idname = name.lower().replace(' ','-')
     return f"""
-        <tr class="{rowclass}" id="{idname}">
+        <tr class="{rowclass}">
             <td class="{headerclass}">{line}</td>
             <td class="{headerclass}">{name}</td>
         </tr>
     """
 
 
-def cvitem(when, what):
+def cvitem(sec, when, what):
     return f"""
         <tr>
             <td>{when}</td>
@@ -48,8 +47,9 @@ def mdToTex(md,i=0,nitems=0):
     linkPattern = re.compile(r'\[([^][]+)\](\(((?:[^()]+|(?2))+)\))')
     for match in linkPattern.finditer(tex):
         text, _, url = match.groups()
+        newText = text.strip()
         newUrl = str(url).replace('_','%5F')
-        tex = tex.replace(f'[{text}]({url})', link(newUrl,text))
+        tex = tex.replace(f'[{text}]({url})', link(newUrl,newText))
 
     # Italics
     tex = re.sub(r"\_([^\*]*)\_", r"<i>\1</i>", tex)
@@ -73,7 +73,7 @@ def mdToTex(md,i=0,nitems=0):
 
 def makeSectionTex(sec, cv, sub=False):
     sectionTex = section(sec,sub) + '\n' + '\n'.join([
-        cvitem(mdToTex(item['when']), BR.join([
+        cvitem(sec, mdToTex(item['when']), BR.join([
                 mdToTex(line,i,len(item['what'])) for i,line in enumerate(item['what'])
             ])) for item in cv[sec]
     ])
@@ -84,7 +84,16 @@ def makeSectionTex(sec, cv, sub=False):
             if sec in cv['subsections'].keys() else ''
             )
     sectionid = sec.lower().replace(' ','-')
-    return sectionTex + subsecsTex
+    tablePre = f"""
+        <section id="{sectionid}">
+        <table>
+        <colgroup>
+            <col span ="1" class="leftcol" >
+            <col span ="1" class="rightcol">
+        </colgroup>
+    """
+    tablePost = "</table></section>"
+    return tablePre + sectionTex + subsecsTex + tablePost
 
 
 def makeSections(cv):
@@ -111,7 +120,8 @@ def main():
     cv, html = load()
     sections = makeSections(cv)
     tocNav   = makeTocNav(cv)
-    html = html.replace('$SECTIONS',sections + tocNav)
+    html = html.replace('$TOC_NAV',tocNav)
+    html = html.replace('$SECTIONS',sections)
     write(html)
 
 if __name__ == '__main__':

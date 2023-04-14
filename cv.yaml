@@ -3,14 +3,14 @@ languages: [en, sv, "no"]
 sections: [
   Education, 
   Publications,
-  Research Experience, 
-  Teaching Experience, 
-  Administration Experience,
-  Industry Experience,
+  Research experience, 
+  Teaching experience, 
+  Admin experience,
+  Industry experience,
   Scholarships, 
   Awards,          
   Presentations,
-  Winter Schools, 
+  Winter schools, 
   Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
@@ -178,7 +178,7 @@ Presentations:
         [https://youtu.be/Z7zmaHVSHdc](https://youtu.be/Z7zmaHVSHdc)"
 
 
-Research Experience:
+Research experience:
   -
     when: "August 2022 - \n Present"
     what:
@@ -246,7 +246,7 @@ Research Experience:
         [SpaceX CRS-24](https://en.wikipedia.org/wiki/SpaceX_CRS-24)
         mission and deployed into low Earth orbit on 26 January 2022."
 
-Teaching Experience:
+Teaching experience:
   -
     when: "August 2022 - \n Present"
     what: 
@@ -277,7 +277,7 @@ Teaching Experience:
         Computer Science._ Tutored students in introductory computer science
         courses. Primarily assisted with homework concepts and code debugging."
 
-Administration Experience:
+Admin experience:
   -
     when: "Fall 2022 - \n Present"
     what:
@@ -287,7 +287,7 @@ Administration Experience:
         interaction unit in division-wide decisions (US equivalent: representing
         a department within a college)."
 
-Industry Experience:
+Industry experience:
   -
     when: "May 2017 - \n October 2017 \n (6 months)"
     what:
@@ -351,7 +351,7 @@ Awards:
         _Social, Cultural, and Behavioral Modeling (SBP-BRiMS) 2021_ conference
         for my [submission](https://doi.org/10i1007/978-3-030-80387-2_32)."
 
-Winter Schools:
+Winter schools:
   -
     when: "December 2022"
     what: 

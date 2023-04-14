@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.1.9)  6 APR 2023 10:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.1.9)  14 APR 2023 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1176,32 +1176,32 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 115--115
  []|[]|[][]|
  []
 
+File: gradient.png Graphic file (type bmp)
+<gradient.png>
+
+Overfull \hbox (4.796pt too wide) in paragraph at lines 118--118
+ []|[]|[][]|
+ []
+
 [3]
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 119--119
+Overfull \hbox (4.796pt too wide) in paragraph at lines 122--122
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 123--123
+Overfull \hbox (4.796pt too wide) in paragraph at lines 129--129
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 130--130
- []|[]|[][]|
- []
-
-File: gradient.png Graphic file (type bmp)
-<gradient.png>
-
-Overfull \hbox (4.796pt too wide) in paragraph at lines 134--134
+Overfull \hbox (4.796pt too wide) in paragraph at lines 133--133
  []|[]|[][]|
  []
 
@@ -1209,25 +1209,25 @@ Overfull \hbox (4.796pt too wide) in paragraph at lines 134--134
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 141--141
+Overfull \hbox (4.796pt too wide) in paragraph at lines 140--140
  []|[]|[][]|
  []
 
 File: gradient.png Graphic file (type bmp)
 <gradient.png>
 
-Overfull \hbox (4.796pt too wide) in paragraph at lines 144--144
+Overfull \hbox (4.796pt too wide) in paragraph at lines 143--143
  []|[]|[][]|
  []
 
 [5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4BB1EBA823EF5C4715168D0ED6867D88;1262.
+(rerunfilecheck)             Checksum: 0A033E2E6EC947A576FE095624934E4D;1217.
  ) 
 Here is how much of TeX's memory you used:
  27348 strings out of 478190
  559092 string characters out of 5854828
- 1046471 words of memory out of 5000000
+ 1046426 words of memory out of 5000000
  47433 multiletter control sequences out of 15000+600000
  473551 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
