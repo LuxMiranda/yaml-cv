@@ -13,16 +13,19 @@ RENDER = {
         'no' : False
 }
 
+CONDENSED = False
+
 TEXBR = '\\\\\n'
 
 def parseLanguageArgs():
-    global RENDER
+    global CONDENSED
+    supported_args = ['toLatex.py','-c']
     for arg in sys.argv:
-        if arg not in RENDER.keys() and arg != 'toLatex.py':
-            print('Invalid language code')
+        if arg not in supported_args:
+            print(f'Invalid argument: {arg}')
             exit(1)
-        elif arg != 'toLatex.py':
-            RENDER[arg] = True
+        elif arg == '-c':
+            CONDENSED = True
 
 def load():
     with open(CV_YAML, 'r') as f:
@@ -122,7 +125,8 @@ def makeSectionTex(sec, cv, sub=False):
 
 
 def makeSections(tex, cv):
-    sectionsTex = '\n'.join([makeSectionTex(s, cv) for s in cv['sections']])
+    render_sections = cv['sections'] if not CONDENSED else [s for s in cv['sections'] if s not in cv['condensed-excludes']]
+    sectionsTex = '\n'.join([makeSectionTex(s, cv) for s in render_sections])
     tex = tex.replace('$SECTIONS',sectionsTex)
     return tex
 

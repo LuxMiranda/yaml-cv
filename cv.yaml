@@ -9,13 +9,17 @@ sections: [
   Industry experience,
   Scholarships, 
   Awards,          
+  #  Selected talks,
   Presentations,
-  Winter schools, 
+  Organized workshops,
+  Summer and winter schools, 
   Skills]
 #subsections: { Education : [Supplemental Courses] }
 subsections: {}
 # Add section names here to apply a page-break before the header
 tex-pagebreaks: [Industry Experience]
+# Sections to exclude in the abridged form of the CV
+condensed-excludes: [Summer and winter schools, Skills, Presentations, Admin experience, Industry experience, Awards]
 ### Header
 firstname: Lux
 lastname: Miranda
@@ -67,12 +71,13 @@ Education:
         
 Publications:
   -
-    when: "2023 \n (Submitted)"
-    what:
-      - "**Miranda, L.** & Milano, S. (2023). 
-        Recommender systems worsen (and likely cannot help) epistemic
-        polarization. Submitted to _Theoretical Aspects of Rationality & 
-        Knowledge (TARK-2023)_."
+    when: "2024"
+    what: 
+      - "**Miranda, L.**, Castellano, G., & Winkle, K. (2024). 
+        A Case for Diverse Social Robot Identity Performance in Education. 
+        _Companion of the 2024 ACM/IEEE International Conference on Human-Robot
+        Interaction (HRI '24)_. [https://doi.org/10.1145/3568294.3580168
+        ](https://doi.org/10.1145/3568294.3580168.)"
   -
     when: "2023 \n _Invited manuscript_"
     what: 
@@ -85,7 +90,7 @@ Publications:
     when: "2023"
     what: 
       - "**Miranda, L.**, Castellano, G., & Winkle, K. (2023). Examining the
-        State of Robot Identity. _Proceedings of the 18th Annual ACM/IEE
+        State of Robot Identity. _Companion of the 2023 ACM/IEEE
         International Conference on Human-Robot Interaction (HRI '23)_. 
         [https://doi.org/10.1145/3568294.3580168
         ](https://doi.org/10.1145/3568294.3580168)"
@@ -139,11 +144,17 @@ Publications:
 
 Presentations:
   -
+    when: "31 May 2023"
+    what:
+      - "__ Invited talk, 
+        [Mines Interactive Robotics 
+        Research](https://mirrorlab.mines.edu/) Summer Speaker Series. 
+        Presented virtually to a live audience in Golden, Colorado, USA"
+  -
     when: "14 March 2023"
     what:
       - "Examining the state of robot identity - Poster presentation.
         _ACM/IEEE International Conference on Human-Robot Interaction_, Stockholm, Sweden"
- 
   -
     when: "06 December 2022"
     what:
@@ -183,9 +194,8 @@ Research experience:
     when: "August 2022 - \n Present"
     what:
       - "**Doctoral student**, [Uppsala Social Robotics Lab
-         ](https://usr-lab.github.io). Studying the ethics and diversification
-         of robot and user identity, expansive mind/body spaces, and their 
-         relation to AI alignment."
+         ](https://usr-lab.github.io). Studying the effects and ethics of 
+         emulating human social identity in social robotics."
   -
     when: "Summer 2022"
     what:
@@ -250,16 +260,12 @@ Teaching experience:
   -
     when: "August 2022 - \n Present"
     what: 
-      - "**Teaching Assistant.** _Uppsala University._ Serving as a TA for 
-        courses in AI, social robotics, and system design."
- 
+      - "**Teaching Assistant.** _Uppsala University._  Have TA'd for the following master's courses: Social Robotics and Human-Robot Interaction; Intelligent Interactive Systems; System Design with a User Perspective; Data, Ethics, and Law"
   -
     when: "August 2020 - \n May 2022 \n (4 semesters)"
     what: 
       - "**Graduate Teaching Assistant.** _University of Central Florida
-        Complex Adaptive Systems Laboratory._ Assisted in teaching, grading,
-        and holding office hours for master's-level courses in data mining, 
-        cloud computing, and statistical analysis."
+    Complex Adaptive Systems Laboratory._ Served as a TA for the following master's courses: Data Mining Methodology I; Statistical Analysis; Parallel and Cloud Computation"
   -
     when: "January 2018 - \n May 2019 \n (3 semesters)"
     what:
@@ -279,13 +285,18 @@ Teaching experience:
 
 Admin experience:
   -
-    when: "Fall 2022 - \n Present"
+    when: "August 2023 - \n Present"
+    what:
+      - "**Chair**,
+        [Doctoral Board of Uppsala University](https://uudoctoralboard.se/).
+        Advocate for and represent all PhD students at Uppsala University's highest decision-making bodies. Coordinate elections to appoint PhD student representatives at boards across the university. Facilitate working groups to resolve structural issues facing PhD students concerning e.g. internationalization, well-being, and the university's climate impact."
+  -
+    when: "November 2022 - \n November 2023 \n (1 year)"
     what:
       - "**PhD Student Representative.** 
         [Uppsala University Vi3 Division](https://www.it.uu.se/about_us/divisions/vi3).
-        Representing all PhD students within the human-machine
-        interaction unit in division-wide decisions (US equivalent: representing
-        a department within a college)."
+        Represented PhD students within the human-machine
+        interaction unit in division-wide decisions."
 
 Industry experience:
   -
@@ -293,11 +304,11 @@ Industry experience:
     what:
       - "**Embedded Engineering Assistant.** 
         [Space Dynamics Laboratory](https://sdl.usu.edu/),
-        Logan, Utah. USA. Developed software for embedded systems in C++. Built
-        a technology demo showcasing a multi-agent platform which toured the
-        USA to help garner  funding. Developed, documented, and standardized
-        methods for in-house Linux distribution management that continued to
-        be used after my departure."
+        Logan, Utah. USA. Developed embedded software for intelligent autonomous
+        systems in C++. Built a technology demo showcasing a multi-agent 
+        platform which toured the USA to help garner funding. Developed,
+        documented, and standardized methods for in-house Linux distribution 
+        management that continued to be used after my departure."
 
 Scholarships:
   -
@@ -322,13 +333,28 @@ Scholarships:
         ](https://www.danielsfund.org/scholarships/daniels-scholarship-program/overview)
         (final award amount: CurrencyUSD(58100)) to attend any four-year Bachelor's
         program in the USA for demonstrating exceptional leadership ability,
-        strength of character, and commitment to community betterment. To
-        maintain the scholarship, I was required to strictly keep the 
-        Daniels Scholar Code of Conduct which entailed working a paid position
-        for at least ten hours per week during the semester, following all
-        local laws, being involved in community betterment, and maintaining 
-        good academic standing."
+        strength of character, and commitment to community betterment."
 
+Selected talks:
+  -
+    when: "31 May 2023"
+    what:
+      - "_Let's get better at robot identity!_ Invited talk, 
+        [Mines Interactive Robotics 
+        Research](https://mirrorlab.mines.edu/) Summer Speaker Series. 
+        Presented virtually to a live audience in Golden, Colorado, USA"
+  -
+    when: "14 March 2023"
+    what:
+      - "Examining the state of robot identity - Poster presentation.
+        _ACM/IEEE International Conference on Human-Robot Interaction_, Stockholm, Sweden"
+ 
+  -
+    when: "06 December 2022"
+    what:
+      - "Interactive exhibit: What does it mean to ascribe identity to robots?
+        _HRI Winterschool on Embodied AI 2022_, Ghent University, Belgium"
+ 
 Awards:
   -
     when: "May 2022"
@@ -351,7 +377,21 @@ Awards:
         _Social, Cultural, and Behavioral Modeling (SBP-BRiMS) 2021_ conference
         for my [submission](https://doi.org/10i1007/978-3-030-80387-2_32)."
 
-Winter schools:
+Organized workshops:
+  -
+    when: "11 March 2024"
+    what: 
+    -     "[Robo-Identity: Designing for Identity in the Shared World
+          ](https://sites.google.com/view/hri2024workshop-robo-identity3/) 
+          at the 2024 ACM/IEEE International Conference on Human-Robot
+          Interaction (HRI 2024)
+          "
+Summer and winter schools:
+  -
+    when: "August 2023"
+    what: 
+      - "**[WASP-HS Summer School on AI's Influence on Jobs and Organizations](http://web.archive.org/web/20240226130318/https://wasp-hs.org/ais-influence-on-jobs-and-organizations-expert-discussions-at-wasp-hs-summer-school-2023/)**, 
+        KTH Royal Institute of Technology, Sweden"
   -
     when: "December 2022"
     what: 
@@ -376,7 +416,7 @@ Skills:
   -
     when: "Languages"
     what:
-      - "English (native; C2), Swedish (conversational; B1)"
+      - "English (native/C2), Swedish (B2)"
   -
     when: "Cooking"
     what:
