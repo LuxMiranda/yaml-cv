@@ -71,7 +71,7 @@ Education:
         
 Publications:
   -
-    when: "2024"
+    when: "2024 \n _Best submission nominee_"
     what: 
       - "**Miranda, L.**, Castellano, G., & Winkle, K. (2024). 
         A Case for Diverse Social Robot Identity Performance in Education. 
@@ -356,6 +356,12 @@ Selected talks:
         _HRI Winterschool on Embodied AI 2022_, Ghent University, Belgium"
  
 Awards:
+  -
+    when: "March 2024"
+    what:
+      - "**Best submission nominee / Honorable mention** within the alt.HRI
+        paper track at the ACM/IEEE International Conference on Human-Robot
+        Interaction (HRI '24). [Link to paper](https://doi.org/10.1145/3568294.3580168.)"
   -
     when: "May 2022"
     what:
